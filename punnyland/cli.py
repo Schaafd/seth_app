@@ -3,7 +3,7 @@ Main CLI interface for Punnyland - A whimsical dad jokes CLI
 """
 
 import click
-import random
+import random as rand_module
 import time
 from typing import Optional
 
@@ -110,8 +110,8 @@ def tell_joke_command(level: Optional[int]):
         return
 
     # Show dad greeting occasionally
-    if random.random() < 0.3:  # 30% chance
-        show_dad_greeting(user_name)
+    if rand_module.random() < 0.3:  # 30% chance
+        show_dad_greeting(user_name, corniness_level)
         time.sleep(1)
 
     # Display the joke

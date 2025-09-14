@@ -12,29 +12,199 @@ from typing import Optional
 
 console = Console()
 
-# ASCII Art for Dad Character
-DAD_ASCII = r"""
-    ╭─────╮
-   ╰─╭─╭─╰╮
-     ╰─╯   │ 👓
-     ╭───╮ │
-    ╱     ╲│
-   ╱  \_/  ╲
-  ╱         ╲
- ╱    ___    ╲
-╱             ╲
-│  Dad Joke   │
-│   Master    │
-╰─────────────╯
+# Sophisticated ASCII Art for Dad Characters
+
+# Classic Dad - The timeless dad joke master
+CLASSIC_DAD = r"""
+        .====================.
+        |  ┌─────────────┐  |
+        |  │ "Dad Jokes" │  |
+        |  │   Master    │  |
+        |  └─────────────┘  |
+        |      ╔═══╗       |
+        |     ╔╝👓 ╚╗      |
+        |    ╔╝ ◕ ◕ ╚╗     |
+        |   ╔╝   ‿   ╚╗    |
+        |  ╔╝  \___/  ╚╗   |
+        |  ║    |||    ║   |
+        |  ║   ┌───┐   ║   |
+        |  ║   │👔 │   ║   |
+        |  ║   └───┘   ║   |
+        |  ╚═══════════╝   |
+        '===================='
 """
 
-MINI_DAD = r"""
-  👨‍👔
- ╱─╲│╱─╲
-╱   👓   ╲
-│  \_/   │
-╰───────╯
+# Wise Dad - The philosophical joke teller
+WISE_DAD = r"""
+            ╭─────────────────╮
+           ╱  ∩─────────────∩  ╲
+          ╱  ╱ ░░ ┌─────┐ ░░ ╲  ╲
+         ╱  ╱ ░░░ │ 👓  │░░░ ╲  ╲
+        │  ╱ ░░░░ │◉   ◉│░░░░ ╲  │
+        │ ╱ ░░░░░ └─┬─┬─┘░░░░░ ╲ │
+        │╱ ░░░░░░░░ │ │ ░░░░░░░░ ╲│
+        ││ ░░░░░░ ┌─┴─┴─┐ ░░░░░░ ││
+        ││ ░░░░░░ │  ‿  │ ░░░░░░ ││
+        ││ ░░░░░░ │ \_/ │ ░░░░░░ ││
+        ││ ░░░░░░ └─────┘ ░░░░░░ ││
+        │╲ ░░░░░░░░░░░░░░░░░░░░░ ╱│
+        │ ╲ ░░░ "Wisdom" ░░░░░ ╱ │
+        ╱  ╲ ░░░░ & Puns ░░░░ ╱  ╲
+       ╱    ╲─────────────────╱    ╲
+      ╱      ╲───────────────╱      ╲
+     ╱________╲─────────────╱________╲
+    ╱                                 ╲
+   ╰───────────────────────────────────╯
 """
+
+# Cool Dad - The hip, modern dad
+COOL_DAD = r"""
+         ██████╗  █████╗ ██████╗ 
+         ██╔══██╗██╔══██╗██╔══██╗
+         ██║  ██║███████║██║  ██║
+         ██║  ██║██╔══██║██║  ██║
+         ██████╔╝██║  ██║██████╔╝
+         ╚═════╝ ╚═╝  ╚═╝╚═════╝ 
+              ╔════════════════╗
+              ║    😎  😎      ║
+              ║      👃        ║
+              ║    ┌─────┐     ║
+              ║    │ 😏  │     ║
+              ║    └─────┘     ║
+              ║     ∙∙∙∙∙      ║
+              ║   ╔═══════╗    ║
+              ║   ║ 🎵 🎸 ║    ║
+              ║   ╚═══════╝    ║
+              ╚════════════════╝
+       " Too cool for school jokes! "
+"""
+
+# Grumpy Dad - For those ultra-corny moments
+GRUMPY_DAD = r"""
+    ╔══════════════════════════════╗
+    ║        ╭─────────────╮       ║
+    ║      ╭─╯ ░ ░ ░ ░ ░ ░ ╰─╮     ║
+    ║    ╭─╯ ░ ░ ░ ░ ░ ░ ░ ░ ╰─╮   ║
+    ║  ╭─╯ ░ ░ ┌───────┐ ░ ░ ░ ╰─╮ ║
+    ║ ╱ ░ ░ ░ ░│ ╭─╮╭─╮│ ░ ░ ░ ░ ╲ ║
+    ║╱ ░ ░ ░ ░ │ │👓││👓│ ░ ░ ░ ░ ░╲║
+    ║░ ░ ░ ░ ░ │ ╰─╯╰─╯│ ░ ░ ░ ░ ░ ║
+    ║░ ░ ░ ░ ░ │   👃   │ ░ ░ ░ ░ ░ ║
+    ║░ ░ ░ ░ ░ │ ┌─────┐│ ░ ░ ░ ░ ░ ║
+    ║░ ░ ░ ░ ░ │ │ ╱─╲ ││ ░ ░ ░ ░ ░ ║
+    ║░ ░ ░ ░ ░ │ │╲___╱││ ░ ░ ░ ░ ░ ║
+    ║░ ░ ░ ░ ░ │ └─────┘│ ░ ░ ░ ░ ░ ║
+    ║╲ ░ ░ ░ ░ └───────┘ ░ ░ ░ ░ ░ ╱║
+    ║ ╲ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ╱ ║
+    ║  ╰─╮ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ╭─╯  ║
+    ║    ╰─╮ ░ ░ "GROAN" ░ ░ ░ ╭─╯    ║
+    ║      ╰─╮ ░ ░ ZONE ░ ░ ░ ╭─╯      ║
+    ║        ╰─────────────╯        ║
+    ╚══════════════════════════════╝
+"""
+
+# Mini versions for smaller displays
+MINI_CLASSIC_DAD = r"""
+      ╭─────╮
+     ╱ ┌─👓─┐ ╲
+    ╱  │ ◕ ◕ │  ╲
+   │   │  ‿  │   │
+   │   │ \_/ │   │
+   ╱   └─────┘   ╲
+  ╱ ░░░ 👔 ░░░ ╲
+ ╱_______________╲
+│ "Dad Joke Pro" │
+╰─────────────────╯
+"""
+
+MINI_COOL_DAD = r"""
+    ╔═══════╗
+    ║ 😎 😎 ║
+    ║   👃   ║
+    ║  😏   ║
+    ║ ╔═══╗  ║
+    ║ ║🎸 ║  ║
+    ║ ╚═══╝  ║
+    ╚═══════╝
+  "Too Cool!"
+"""
+
+MINI_WISE_DAD = r"""
+     ╔═════════╗
+    ╔╝ ┌─────┐ ╚╗
+   ╔╝  │👓   │  ╚╗
+  ╔╝   │ ◉ ◉ │   ╚╗
+ ╔╝    │  ‿  │    ╚╗
+╔╝     │ \_/ │     ╚╗
+║      └─────┘      ║
+║   ░"Wisdom"░      ║
+╚╦══════════════════╝
+ ║    & Dad Jokes    
+ ╚════════════════════
+"""
+
+MINI_GRUMPY_DAD = r"""
+    ████████████
+  ██ ╭─╮  ╭─╮ ██
+ ██  │👓│  │👓│  ██
+██   │ ◕│  │◕ │   ██
+██   ╰──╯  ╰──╯   ██
+██      👃       ██
+██    ┌─────┐    ██
+██    │ ╱─╲ │    ██
+██    │╲___╱│    ██
+██    └─────┘    ██
+ ██ "GROAN ZONE" ██
+  ████████████████
+"""
+
+# Dad character collections for dynamic selection
+FULL_DADS = {
+    'classic': CLASSIC_DAD,
+    'wise': WISE_DAD,
+    'cool': COOL_DAD,
+    'grumpy': GRUMPY_DAD
+}
+
+MINI_DADS = {
+    'classic': MINI_CLASSIC_DAD,
+    'wise': MINI_WISE_DAD,
+    'cool': MINI_COOL_DAD,
+    'grumpy': MINI_GRUMPY_DAD
+}
+
+# Legacy for compatibility
+DAD_ASCII = CLASSIC_DAD
+MINI_DAD = MINI_CLASSIC_DAD
+
+def get_dad_character(corniness_level: int = 3, mini: bool = True) -> str:
+    """Select appropriate Dad character based on corniness level and context"""
+    dad_collection = MINI_DADS if mini else FULL_DADS
+    
+    # Select dad type based on corniness level
+    if corniness_level == 1:
+        # Mild jokes get wise dad (sophisticated)
+        return dad_collection['wise']
+    elif corniness_level == 2:
+        # Dad approved gets classic dad
+        return dad_collection['classic']
+    elif corniness_level == 3:
+        # Eye roll guaranteed - mix of classic and cool
+        return random.choice([dad_collection['classic'], dad_collection['cool']])
+    elif corniness_level == 4:
+        # Groan zone - grumpy dad starts appearing
+        return random.choice([dad_collection['classic'], dad_collection['grumpy']])
+    else:  # corniness_level == 5
+        # Ultra corn - mostly grumpy dad
+        return random.choice([dad_collection['grumpy'], dad_collection['grumpy'], dad_collection['classic']])
+
+def get_welcome_dad() -> str:
+    """Get a special dad for welcome screens"""
+    return random.choice([CLASSIC_DAD, WISE_DAD])
+
+def get_goodbye_dad() -> str:
+    """Get a dad for goodbye screens"""
+    return random.choice([CLASSIC_DAD, COOL_DAD])
 
 # Corniness level visual indicators
 CORN_LEVELS = {
@@ -79,14 +249,14 @@ DAD_RESPONSES = [
 ]
 
 def show_welcome_banner():
-    """Display the main welcome banner"""
+    """Display the main welcome banner with dynamic Dad selection"""
     title = Text("🎭 WELCOME TO PUNNYLAND 🎭", style="bold magenta")
     subtitle = Text("Where Dad Jokes Come to Life!", style="italic cyan")
 
     welcome_text = Align.center(Text.assemble(
         title, "\n",
         subtitle, "\n\n",
-        Text(DAD_ASCII, style="yellow"),
+        Text(get_welcome_dad(), style="yellow"),
         "\n",
         Text("Ready to groan with delight? Let's get punny! 🤪", style="bold green")
     ))
@@ -99,10 +269,13 @@ def show_welcome_banner():
     ))
 
 def show_joke_with_dad(joke_text: str, corniness: int, user_name: Optional[str] = None):
-    """Display a joke with the dad character"""
+    """Display a joke with the appropriate Dad character based on corniness level"""
     name_part = f" {user_name}" if user_name else ""
     corn_level = CORN_LEVELS.get(corniness, "🌽 Unknown Level")
 
+    # Get appropriate dad character for this corniness level
+    selected_dad = get_dad_character(corniness, mini=True)
+    
     # Dad saying the joke
     dad_speech = Text.assemble(
         Text(f"Hey{name_part}! Here's a good one:\n\n", style="bold blue"),
@@ -112,7 +285,7 @@ def show_joke_with_dad(joke_text: str, corniness: int, user_name: Optional[str] 
 
     # Combine dad ASCII with speech
     content = Align.center(Text.assemble(
-        Text(MINI_DAD, style="yellow"), "\n",
+        Text(selected_dad, style="yellow"), "\n",
         dad_speech, "\n",
         Text(random.choice(DAD_ENCOURAGEMENTS), style="italic green")
     ))
@@ -144,13 +317,16 @@ def show_corniness_scale():
         border_style="yellow"
     ))
 
-def show_dad_greeting(user_name: Optional[str] = None):
-    """Show a personalized dad greeting"""
+def show_dad_greeting(user_name: Optional[str] = None, corniness_level: int = 3):
+    """Show a personalized dad greeting with appropriate character"""
     name_part = f" {user_name}" if user_name else ""
     greeting = random.choice(DAD_GREETINGS).replace("kiddo", user_name or "kiddo")
+    
+    # Get appropriate dad character
+    selected_dad = get_dad_character(corniness_level, mini=True)
 
     content = Align.center(Text.assemble(
-        Text(MINI_DAD, style="yellow"), "\n",
+        Text(selected_dad, style="yellow"), "\n",
         Text(f"{greeting}{name_part}", style="bold blue"), "\n",
         Text(random.choice(DAD_RESPONSES), style="italic green")
     ))
@@ -195,7 +371,7 @@ def show_error(message: str):
     ))
 
 def show_goodbye(user_name: Optional[str] = None):
-    """Show a dad-style goodbye"""
+    """Show a dad-style goodbye with dynamic character selection"""
     name_part = f" {user_name}" if user_name else ""
 
     goodbyes = [
@@ -208,7 +384,7 @@ def show_goodbye(user_name: Optional[str] = None):
 
     console.print(Panel(
         Align.center(Text.assemble(
-            Text(DAD_ASCII, style="yellow"), "\n",
+            Text(get_goodbye_dad(), style="yellow"), "\n",
             Text(random.choice(goodbyes), style="bold blue"), "\n",
             Text("Thanks for letting me share my jokes with you! 🤗", style="italic green")
         )),

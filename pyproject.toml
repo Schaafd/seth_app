@@ -1,0 +1,16 @@
+[project]
+name = "punnyland"
+version = "1.0.0"
+description = "A whimsical CLI for dad jokes with personality!"
+requires-python = ">=3.10"
+dependencies = [
+    "click>=8.1.0",
+    "colorama>=0.4.6",
+    "rich>=13.0.0",
+]
+
+[project.scripts]
+punnyland = "punnyland.cli:main"
+
+[tool.uv]
+package = true
