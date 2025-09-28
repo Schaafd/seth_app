@@ -155,6 +155,18 @@ This project uses:
 - **Rich** for beautiful terminal output
 - **Sophisticated ASCII art** for character personalities
 
+#### Developer Setup & Testing
+
+```bash
+uv sync --group dev
+```
+Install the developer toolchain, including pytest and coverage plugins.
+
+```bash
+uv run pytest
+```
+Run the full test suite; pair with `--cov=punnyland --cov-report=term-missing` to verify joke delivery paths.
+
 ## 🎯 Pro Tips for Maximum Enjoyment
 
 1. **Start with Level 3** - It's the sweet spot of dad joke perfection
