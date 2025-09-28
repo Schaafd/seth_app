@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Improved Automated joke rating and validation tool based on Punnyland quality rubric.
+Improved Joke Rating Tool
 
 Enhanced classification algorithm based on actual joke patterns and manual review insights.
 Focuses on joke structure, pun quality, and corniness indicators rather than just length.
@@ -10,25 +10,17 @@ import json
 import re
 from pathlib import Path
 from typing import Dict, List, Tuple, Optional
-from rapidfuzz import fuzz
 
 
-class JokeRater:
-    """Enhanced joke rater with better corniness classification (improved algorithm)."""
+class ImprovedJokeRater:
+    """Enhanced joke rater with better corniness classification."""
     
     def __init__(self):
-        # Quality requirements
+        # Quality requirements (unchanged)
         self.max_length = 180
         self.min_length = 10
-        self.preferred_lengths = {
-            1: 80,   # Mild chuckle - subtle, shorter
-            2: 100,  # Dad approved - classic length
-            3: 90,   # Eye roll guaranteed - concise puns
-            4: 140,  # Groan zone - longer setups
-            5: 180   # Ultra corn - maximum length
-        }
         
-        # Content filters
+        # Content filters (unchanged)
         self.forbidden_words = [
             'damn', 'hell', 'crap', 'stupid', 'idiot', 'dumb',
             'trump', 'biden', 'democrat', 'republican', 'politics',
@@ -113,7 +105,7 @@ class JokeRater:
         }
     
     def validate_content(self, joke: str) -> Tuple[bool, List[str]]:
-        """Validate joke meets content standards."""
+        """Validate joke meets content standards (unchanged from original)."""
         issues = []
         
         if len(joke) > self.max_length:
@@ -144,7 +136,7 @@ class JokeRater:
         
         return len(issues) == 0, issues
     
-    def count_puns(self, joke: str) -> int:
+    def count_actual_puns(self, joke: str) -> int:
         """More accurate pun counting focused on actual wordplay."""
         pun_count = 0
         joke_lower = joke.lower()
@@ -165,7 +157,7 @@ class JokeRater:
                 pun_count += 1
         
         # Animal puns (common in corny jokes) - use word boundaries to avoid false matches
-        animal_puns = [r'\bmoo\b', r'\bpaws\b', r'\bfur\b', r'\btail\b', r'\bpurr\b', 'udderly', 'dairy', r'\bbeef\b']
+        animal_puns = ['\bmoo\b', '\bpaws\b', '\bfur\b', '\btail\b', '\bpurr\b', 'udderly', 'dairy', '\bbeef\b']
         animal_pun_count = sum(1 for pun in animal_puns if re.search(pun, joke_lower))
         if animal_pun_count > 2:  # Multiple animal puns = high corniness
             pun_count += 2
@@ -197,7 +189,7 @@ class JokeRater:
         
         return structure
     
-    def rate_corniness(self, joke: str) -> Tuple[int, float]:
+    def rate_corniness_improved(self, joke: str) -> Tuple[int, float]:
         """
         Improved corniness rating based on actual joke patterns.
         
@@ -251,7 +243,7 @@ class JokeRater:
             scores[3] += 3  # Also common in Level 3
         
         # Pun density adjustments
-        actual_pun_count = self.count_puns(joke)
+        actual_pun_count = self.count_actual_puns(joke)
         if actual_pun_count == 0:
             scores[1] += 8  # Likely subtle wordplay
         elif actual_pun_count == 1:
@@ -297,15 +289,16 @@ class JokeRater:
         is_valid, issues = self.validate_content(joke)
         
         # Improved corniness rating
-        level, confidence = self.rate_corniness(joke)
+        level, confidence = self.rate_corniness_improved(joke)
         
         # Quality score calculation
         quality_score = 100
         quality_score -= len(issues) * 10  # Deduct for issues
         
         # Adjust for length vs level expectations
-        if len(joke) > self.preferred_lengths[level]:
-            quality_score -= (len(joke) - self.preferred_lengths[level]) * 0.1
+        expected_ranges = {1: 80, 2: 100, 3: 90, 4: 140, 5: 180}
+        if len(joke) > expected_ranges[level]:
+            quality_score -= (len(joke) - expected_ranges[level]) * 0.1
         
         quality_score = max(0, min(100, quality_score))
         
@@ -317,7 +310,8 @@ class JokeRater:
             'confidence': round(confidence, 3),
             'quality_score': round(quality_score, 1),
             'length': len(joke),
-            'pun_count': self.count_puns(joke),
+            'pun_count': self.count_actual_puns(joke),
+            'structure': self.analyze_joke_structure(joke),
             'recommendations': self._generate_recommendations(joke, level, issues)
         }
     
@@ -325,13 +319,14 @@ class JokeRater:
         """Generate improvement recommendations."""
         recommendations = []
         
-        if len(joke) > self.preferred_lengths[level]:
-            recommendations.append(f"Consider shortening (current: {len(joke)}, preferred: ≤{self.preferred_lengths[level]})")
+        expected_lengths = {1: 80, 2: 100, 3: 90, 4: 140, 5: 180}
+        if len(joke) > expected_lengths[level]:
+            recommendations.append(f"Consider shortening (current: {len(joke)}, preferred: ≤{expected_lengths[level]})")
         
         if issues:
             recommendations.append("Fix content issues before using")
         
-        pun_count = self.count_puns(joke)
+        pun_count = self.count_actual_puns(joke)
         if pun_count == 0 and level > 1:
             recommendations.append("Consider adding wordplay elements")
         
@@ -343,61 +338,13 @@ class JokeRater:
     def batch_rate(self, jokes: List[str]) -> List[Dict]:
         """Rate multiple jokes."""
         return [self.rate_joke(joke) for joke in jokes]
-    
-    def rate_database(self, jokes_file: str = "punnyland/data/jokes.json") -> Dict:
-        """Rate entire jokes database."""
-        with open(jokes_file, 'r') as f:
-            jokes_data = json.load(f)
-        
-        results = {}
-        total_stats = {
-            'total_jokes': 0,
-            'valid_jokes': 0,
-            'average_quality': 0,
-            'level_accuracy': 0
-        }
-        
-        for level, joke_list in jokes_data.items():
-            level_results = []
-            correct_classifications = 0
-            
-            for joke in joke_list:
-                rating = self.rate_joke(joke)
-                level_results.append(rating)
-                
-                if rating['valid']:
-                    total_stats['valid_jokes'] += 1
-                
-                if rating['corniness_level'] == int(level):
-                    correct_classifications += 1
-                    
-                total_stats['average_quality'] += rating['quality_score']
-                total_stats['total_jokes'] += 1
-            
-            results[level] = {
-                'jokes': level_results,
-                'count': len(joke_list),
-                'accuracy': correct_classifications / len(joke_list) if joke_list else 0,
-                'avg_quality': sum(r['quality_score'] for r in level_results) / len(level_results) if level_results else 0
-            }
-        
-        # Calculate overall stats
-        if total_stats['total_jokes'] > 0:
-            total_stats['average_quality'] /= total_stats['total_jokes']
-            total_stats['level_accuracy'] = sum(results[level]['accuracy'] * results[level]['count'] 
-                                               for level in results) / total_stats['total_jokes']
-        
-        return {
-            'by_level': results,
-            'overall': total_stats
-        }
 
 
 def main():
     """Main function for command-line usage."""
     import sys
     
-    rater = JokeRater()
+    rater = ImprovedJokeRater()
     
     if len(sys.argv) > 1:
         # Rate single joke from command line
@@ -410,7 +357,7 @@ def main():
         print(f"📊 Confidence: {result['confidence']}")
         print(f"⭐ Quality Score: {result['quality_score']}/100")
         print(f"📏 Length: {result['length']} chars")
-        print(f"🎯 Pun Count: {result['pun_count']}")
+        print(f"🎯 Actual Pun Count: {result['pun_count']}")
         
         if result['issues']:
             print(f"⚠️  Issues: {', '.join(result['issues'])}")
@@ -420,21 +367,7 @@ def main():
             for rec in result['recommendations']:
                 print(f"  • {rec}")
     else:
-        # Rate entire database
-        print("🔍 Rating entire jokes database...")
-        results = rater.rate_database()
-        
-        print(f"\n📊 Overall Results:")
-        print(f"Total Jokes: {results['overall']['total_jokes']}")
-        print(f"Valid Jokes: {results['overall']['valid_jokes']}")
-        print(f"Average Quality: {results['overall']['average_quality']:.1f}/100")
-        print(f"Level Classification Accuracy: {results['overall']['level_accuracy']:.1%}")
-        
-        print(f"\n📈 By Level:")
-        for level, data in results['by_level'].items():
-            print(f"  Level {level}: {data['count']} jokes, "
-                  f"{data['accuracy']:.1%} accurate, "
-                  f"{data['avg_quality']:.1f} quality")
+        print("Usage: python improved_rater.py \"Your joke here\"")
 
 
 if __name__ == "__main__":

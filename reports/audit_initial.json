@@ -1,341 +1,44 @@
 {
-  "audit_timestamp": "2025-09-28T14:20:05.494322",
+  "audit_timestamp": "2025-09-28T18:14:14.528383",
   "database_file": "punnyland/data/jokes.json",
   "schema_file": "schemas/jokes.schema.json",
   "schema_validation": {
-    "valid": false,
-    "errors": [
-      {
-        "message": "\"I told my toucan friend about tropical meteorology while we were studying weather patterns in the Amazon rainforest. It said 'That's beak-on accurate!' Then it added 'But also color-fully complex!' Finally it concluded 'Overall, it's toucan-do knowledge!' I thought, 'This toucan really has a nose for weather with beak-coming expertise and tropical intelligence!'\" is too long",
-        "path": [
-          "5",
-          47
-        ],
-        "invalid_value": "I told my toucan friend about tropical meteorology while we were studying weather patterns in the Am"
-      }
-    ],
+    "valid": true,
+    "errors": [],
     "warnings": []
   },
   "duplicate_analysis": {
-    "total_comparisons": 78606,
+    "total_comparisons": 90100,
     "duplicates_found": 0,
     "duplicates": []
   },
   "quality_analysis": {
     "too_short": [],
-    "too_long": [
-      {
-        "level": "5",
-        "index": 1,
-        "joke": "Why did the cat become a stand-up comedian at the fancy theater during opening night? Because it was purr-fectly positioned, feline fine about everything, and whisker-ing away all doubts! Talk about cat-astrophically good with paws-itively meow-nificent results that left the audience in stitches!",
-        "length": 297,
-        "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
-      },
-      {
-        "level": "5",
-        "index": 2,
-        "joke": "What do you call a cow that performs magic tricks, teaches calculus, and runs marathons while juggling? A moo-gician with udderly incredible skills, legen-dairy dedication, and a no-bull attitude! That's what I call moo-ving and shaking with pasture-perfect performance!",
-        "length": 270
-      },
-      {
-        "level": "5",
-        "index": 3,
-        "joke": "I told my dog about quantum physics while we were skydiving during a thunderstorm. It said 'That's paws-itively mind-blowing!' Then it added 'But also tail-waggingly confusing!' Finally it concluded 'Overall, it's ruff but fascinating!' I thought, 'Doggone brilliant with bow-wow intellectual curiosity!'",
-        "length": 304
-      },
-      {
-        "level": "5",
-        "index": 4,
-        "joke": "A pig walked into a five-star restaurant carrying a briefcase and a harmonica during the dinner rush. The maître d' said 'Why the formal presentation?' The pig replied 'I'm ham-ming it up for my new business venture!' Everyone agreed it was squealing success with bacon-breaking innovation!",
-        "length": 290
-      },
-      {
-        "level": "5",
-        "index": 5,
-        "joke": "What's the difference between a symphony at Carnegie Hall and a fish at a sushi restaurant? One is a masterpiece of musical excellence with perfect harmony, the other is fin-tastically fresh with scale-ing flavors! Both are equally hook-ing in their own spectacular ways!",
-        "length": 271
-      },
-      {
-        "level": "5",
-        "index": 6,
-        "joke": "Why did the elephant become a memory therapist at the wellness center during peak season? Because it was trunk-fully equipped, never forgets anything important, and had pachy-dermal wisdom! Talk about mammoth success with ear-resistibly effective treatments that clients remember forever!",
-        "length": 288,
-        "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
-      },
-      {
-        "level": "5",
-        "index": 7,
-        "joke": "What do you call a chicken that writes novels, solves crosswords, and performs Shakespeare while tap dancing? A literary genius with egg-ceptional talent, feather-brained creativity, and comb-pletely amazing performances! That's what I call poultry in motion with egg-straordinary artistic expression!",
-        "length": 301
-      },
-      {
-        "level": "5",
-        "index": 8,
-        "joke": "I told my rabbit friend about rocket science while we were bungee jumping off the Empire State Building. It said 'That's hop-efully accurate!' Then it added 'But also ear-resistibly complex!' Finally it concluded 'Overall, it's bunny-derful knowledge!' I thought, 'Some-bunny's really carrot-ing about education!'",
-        "length": 313
-      },
-      {
-        "level": "5",
-        "index": 9,
-        "joke": "A horse walked into a Broadway theater carrying a violin and a top hat during intermission of a major production. The director said 'Why the musical entrance?' The horse replied 'I'm just trying to stirrup some interest in my one-horse show!' Everyone agreed it was mane-ly spectacular entertainment!",
-        "length": 300
-      },
-      {
-        "level": "5",
-        "index": 10,
-        "joke": "What's the difference between a painting in the Louvre and a sheep in a meadow? One is a priceless work of art that inspires millions, the other is wool-derfully peaceful with baa-utiful simplicity! Both are equally flock-ing amazing in their unique artistic expressions!",
-        "length": 271
-      },
-      {
-        "level": "5",
-        "index": 11,
-        "joke": "Why did the monkey become a computer scientist at Silicon Valley during the tech boom? Because it was bananas about innovation, had ape-solutely brilliant coding skills, and could swing through problems with ease! Talk about going bananas with primo-rdial programming genius!",
-        "length": 275,
-        "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
-      },
-      {
-        "level": "5",
-        "index": 12,
-        "joke": "What do you call a turtle that teaches philosophy, practices law, and performs surgery while doing yoga? A shell-shocked intellectual with slow-and-steady wisdom, turtle-ly amazing skills, and snap-ping good judgment! That's what I call shell-ebrated excellence with reptile dysfunction... wait, that came out wrong!",
-        "length": 316,
-        "pattern": "!{2,}|\\.{3,}"
-      },
-      {
-        "level": "5",
-        "index": 13,
-        "joke": "I told my duck friend about advanced mathematics while we were white-water rafting through the Grand Canyon. It said 'That's quack-tastic knowledge!' Then it added 'But also bill-iantly complicated!' Finally it concluded 'Overall, it's duck-ing incredible!' I thought, 'Water you thinking? This duck is absolutely fowl-some!'",
-        "length": 325
-      },
-      {
-        "level": "5",
-        "index": 14,
-        "joke": "A bear walked into a gourmet honey shop carrying a cookbook and a chef's hat during the busy harvest season. The shopkeeper said 'Why the culinary preparation?' The bear replied 'I'm just trying to bear down on my cooking skills!' Everyone agreed it was bear-y impressive with claw-some potential!",
-        "length": 297
-      },
-      {
-        "level": "5",
-        "index": 15,
-        "joke": "What's the difference between a rocket at NASA and a kangaroo in Australia? One reaches for the stars with scientific precision and cosmic ambition, the other hops around with pouch-itive energy! Both are equally jump-ing with out-of-this-world potential for amazing achievements!",
-        "length": 280
-      },
-      {
-        "level": "5",
-        "index": 16,
-        "joke": "Why did the fox become a detective at Scotland Yard during the Victorian era? Because it was sly-ly observant, had tail-telling investigative skills, and could den-y nothing to justice! Talk about fur-ensic excellence with fox-y problem-solving abilities that left criminals out-fox-ed!",
-        "length": 286,
-        "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
-      },
-      {
-        "level": "5",
-        "index": 17,
-        "joke": "What do you call a penguin that conducts orchestras, teaches ice skating, and runs an Antarctic tour company while wearing a tuxedo? A formally dressed entrepreneur with ice-cold business acumen, slip-pery smooth operations, and waddle-ing success! That's what I call black-and-white excellence with flipper-fect execution!",
-        "length": 323
-      },
-      {
-        "level": "5",
-        "index": 18,
-        "joke": "I told my owl friend about aerodynamics while we were hang-gliding over the Swiss Alps at midnight. It said 'That's owl-standing information!' Then it added 'But also hoot-rifically complex!' Finally it concluded 'Overall, it's a wise subject!' I thought, 'Who's the smart one now? This owl is absolutely talon-ted!'",
-        "length": 316
-      },
-      {
-        "level": "5",
-        "index": 19,
-        "joke": "A giraffe walked into an art gallery carrying a paintbrush and a ladder during the opening night exhibition. The curator said 'Why the elevated preparation?' The giraffe replied 'I'm just trying to reach new heights in my artistic expression!' Everyone agreed it was neck-st level creativity with tall-ented vision!",
-        "length": 315
-      },
-      {
-        "level": "5",
-        "index": 20,
-        "joke": "What's the difference between a diamond in Tiffany's and a zebra in the Serengeti? One sparkles with precious brilliance and timeless elegance, the other dazzles with stripe-ing natural beauty! Both are equally rare treasures that stripe up conversations wherever they appear!",
-        "length": 276
-      },
-      {
-        "level": "5",
-        "index": 21,
-        "joke": "Why did the lion become a motivational speaker at corporate retreats during leadership conferences? Because it had mane-ly charismatic presence, roar-ing confidence, and pride-ful speaking abilities! Talk about king-ly performance with claw-some inspiration that left audiences roaring with approval!",
-        "length": 300,
-        "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
-      },
-      {
-        "level": "5",
-        "index": 22,
-        "joke": "I told my squirrel friend about stock market investments while we were zip-lining through the Amazon rainforest. It said 'That's nuts-olutely fascinating!' Then it added 'But also acorn-y subject!' Finally it concluded 'Overall, it's tree-mendous knowledge!' I thought, 'This squirrel is nuts about finance and bushy-tailed with investment wisdom!'",
-        "length": 348
-      },
-      {
-        "level": "5",
-        "index": 23,
-        "joke": "A peacock walked into a fashion show carrying a mirror and a feather boa during Paris Fashion Week. The designer said 'Why the elaborate accessories?' The peacock replied 'I'm just trying to feather my nest in the fashion industry!' Everyone agreed it was preen-ty spectacular with tail-ored excellence!",
-        "length": 303
-      },
-      {
-        "level": "5",
-        "index": 24,
-        "joke": "What's the difference between a telescope at Mount Palomar and a hawk soaring over the Rocky Mountains? One peers into the cosmos with scientific precision and stellar focus, the other soars with hawk-ward grace! Both are equally talon-ted at reaching incredible heights and keeping their eyes on amazing targets!",
-        "length": 313
-      },
-      {
-        "level": "5",
-        "index": 25,
-        "joke": "Why did the whale become an opera singer at the Metropolitan Opera during the season finale? Because it had whale-ing good vocal range, deep-sea resonance, and could make waves with every performance! Talk about mammoth talent with fin-esse that left audiences spouting with enthusiasm!",
-        "length": 286,
-        "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
-      },
-      {
-        "level": "5",
-        "index": 26,
-        "joke": "What do you call a chameleon that works as a therapist, performs magic shows, and teaches art classes while changing colors? A multi-faceted professional with blend-ing therapeutic skills, color-ful personality, and scale-ing artistic abilities! That's what I call adapt-able excellence with hue-morous talent!",
-        "length": 310
-      },
-      {
-        "level": "5",
-        "index": 27,
-        "joke": "I told my flamingo friend about ballet techniques while we were performing synchronized swimming in the Everglades. It said 'That's pink-redibly graceful!' Then it added 'But also leg-endarily difficult!' Finally it concluded 'Overall, it's fla-mingo-nificent!' I thought, 'This bird is absolutely stand-out with one-legged perfection!'",
-        "length": 336
-      },
-      {
-        "level": "5",
-        "index": 28,
-        "joke": "A rhinoceros walked into a china shop carrying bubble wrap and safety gloves during the holiday rush. The owner said 'Why the protective measures?' The rhinoceros replied 'I'm just trying to horn in on the delicate business without causing a crash!' Everyone agreed it was point-ed wisdom with thick-skinned consideration!",
-        "length": 322
-      },
-      {
-        "level": "5",
-        "index": 29,
-        "joke": "What's the difference between a Stradivarius violin at a concert hall and a cricket in a meadow? One creates heavenly music with masterful craftsmanship and perfect pitch, the other chirps with natural rhythm! Both are equally string-ing together beautiful sounds that resonate with their audiences!",
-        "length": 299
-      },
-      {
-        "level": "5",
-        "index": 30,
-        "joke": "Why did the octopus become a multitasking consultant at Fortune 500 companies during busy mergers? Because it had eight arms for juggling projects, ink-credible problem-solving skills, and could tentacle any challenge! Talk about well-armed success with sucker-punch efficiency!",
-        "length": 278,
-        "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
-      },
-      {
-        "level": "5",
-        "index": 31,
-        "joke": "What do you call a butterfly that teaches transformation seminars, performs aerial acrobatics, and runs a flower delivery service while migrating thousands of miles? A metamorphosis expert with flutter-ing business acumen, wing-ed delivery precision, and monarch-ical dedication! That's what I call butter-fly success with cater-pillar-to-CEO transformation!",
-        "length": 358
-      },
-      {
-        "level": "5",
-        "index": 32,
-        "joke": "I told my porcupine friend about acupuncture techniques while we were practicing martial arts in a bamboo forest. It said 'That's point-edly relevant!' Then it added 'But also needle-ssly complicated!' Finally it concluded 'Overall, it's sharp thinking!' I thought, 'This porcupine really knows how to get to the point with quill-ity education!'",
-        "length": 345
-      },
-      {
-        "level": "5",
-        "index": 33,
-        "joke": "A hamster walked into a fitness center carrying a protein shake and a tiny stopwatch during the marathon training session. The trainer said 'Why the athletic preparation?' The hamster replied 'I'm just trying to wheel my way to victory!' Everyone agreed it was wheel-y impressive with cheek-pouch determination!",
-        "length": 311
-      },
-      {
-        "level": "5",
-        "index": 34,
-        "joke": "What's the difference between a masterpiece at the Smithsonian and a beaver building a dam? One is preserved art that inspires generations with cultural significance, the other creates engineering marvels! Both are equally dam impressive with their own forms of architectural excellence and wood-erful craftsmanship!",
-        "length": 316
-      },
-      {
-        "level": "5",
-        "index": 35,
-        "joke": "Why did the parrot become a foreign language instructor at the United Nations during international conferences? Because it had poly-glot abilities, colorful teaching methods, and could wing it in any situation! Talk about bird-brained brilliance with feather-ed linguistic skills that left students squawking with delight!",
-        "length": 322,
-        "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
-      },
-      {
-        "level": "5",
-        "index": 36,
-        "joke": "What do you call a sloth that runs a productivity consulting firm, teaches time management, and practices speed reading while hanging upside down? An ironic success story with slow-and-steady wisdom, hang-ing in there persistence, and claw-some time optimization! That's what I call sloth-ful efficiency with tree-mendous patience!",
-        "length": 331
-      },
-      {
-        "level": "5",
-        "index": 37,
-        "joke": "I told my hummingbird friend about energy conservation while we were power-lifting at a high-altitude gym. It said 'That's buzz-worthy information!' Then it added 'But also wing-ingly exhausting!' Finally it concluded 'Overall, it's tweet perfection!' I thought, 'This hummingbird is absolutely hover-achiever with nectar-sweet knowledge!'",
-        "length": 339
-      },
-      {
-        "level": "5",
-        "index": 38,
-        "joke": "A moose walked into a antique shop carrying reading glasses and a magnifying glass during the estate sale weekend. The appraiser said 'Why the visual aids?' The moose replied 'I'm just trying to antler-lyze the value of these collectibles!' Everyone agreed it was rack-ing up expertise with moose-eum quality knowledge!",
-        "length": 319
-      },
-      {
-        "level": "5",
-        "index": 39,
-        "joke": "What's the difference between a symphony conductor at Carnegie Hall and a woodpecker in an old oak tree? One orchestrates beautiful music with precise timing and artistic vision, the other creates rhythmic percussion! Both are equally peck-uliar artists with their own drumming techniques and tree-mendous dedication to their craft!",
-        "length": 332
-      },
-      {
-        "level": "5",
-        "index": 40,
-        "joke": "Why did the seal become a marine biologist at the aquarium during shark week? Because it had seal-ed expertise in aquatic life, flipper-fect swimming skills, and could navigate any depth of knowledge! Talk about water-tight qualifications with seal-iously impressive marine credentials!",
-        "length": 286,
-        "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
-      },
-      {
-        "level": "5",
-        "index": 41,
-        "joke": "What do you call a raccoon that works as a recycling consultant, teaches environmental science, and runs a cleaning service while wearing tiny gloves? A mask-ed environmental hero with paws-itively green initiatives, ring-tailed dedication, and trash-to-treasure expertise! That's what I call raccoon-ciliation between nature and human progress!",
-        "length": 345
-      },
-      {
-        "level": "5",
-        "index": 42,
-        "joke": "I told my chinchilla friend about dust-free computing while we were deep-cleaning a server room in Silicon Valley. It said 'That's dust-urbingly relevant!' Then it added 'But also fur-rightening complex!' Finally it concluded 'Overall, it's whisker-ing good technology!' I thought, 'This chinchilla is absolutely soft-ware expert with dust-busting knowledge!'",
-        "length": 359
-      },
-      {
-        "level": "5",
-        "index": 43,
-        "joke": "A platypus walked into a genetics laboratory carrying a textbook on evolution during Darwin's birthday celebration. The scientist said 'Why the educational preparation?' The platypus replied 'I'm just trying to bill-d my understanding of my unique heritage!' Everyone agreed it was duck-bill-ious learning with egg-laying mammal mysteries!",
-        "length": 339
-      },
-      {
-        "level": "5",
-        "index": 44,
-        "joke": "What's the difference between a rocket scientist at SpaceX and a eagle soaring over the Grand Canyon? One reaches for the stars with mathematical precision and rocket fuel, the other soars with natural grace! Both are equally fly-ing high with their own methods of achieving lofty goals and eagle-eye vision!",
-        "length": 308
-      },
-      {
-        "level": "5",
-        "index": 45,
-        "joke": "Why did the lobster become a hand surgeon at the medical center during the busy emergency season? Because it had claw-some dexterity, shell-shocking precision, and could really get to the meat of any problem! Talk about crust-acean excellence with pincer-point accuracy that left patients snapping with satisfaction!",
-        "length": 316,
-        "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
-      },
-      {
-        "level": "5",
-        "index": 46,
-        "joke": "What do you call a hedgehog that teaches defensive driving, practices martial arts, and runs a security company while rolling into a ball? A spike-ed protection specialist with needle-sharp reflexes, quill-ified training expertise, and point-ed business acumen! That's what I call hedge-ing your bets with prickly perfection!",
-        "length": 325
-      },
-      {
-        "level": "5",
-        "index": 47,
-        "joke": "I told my toucan friend about tropical meteorology while we were studying weather patterns in the Amazon rainforest. It said 'That's beak-on accurate!' Then it added 'But also color-fully complex!' Finally it concluded 'Overall, it's toucan-do knowledge!' I thought, 'This toucan really has a nose for weather with beak-coming expertise and tropical intelligence!'",
-        "length": 364
-      }
-    ],
+    "too_long": [],
     "contains_explanations": [
       {
         "level": "2",
-        "index": 65,
+        "index": 55,
         "joke": "Why did the cookie cry? Because its mom was a wafer so long!",
         "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
       },
       {
         "level": "3",
-        "index": 28,
+        "index": 19,
         "joke": "What do you call a fish that's a lawyer? A legal eagle... wait, that's a bird!",
         "pattern": "!{2,}|\\.{3,}"
       },
       {
         "level": "3",
-        "index": 55,
+        "index": 43,
         "joke": "Why don't unicorns ever get lost? They always follow their nose... er, horn!",
         "pattern": "!{2,}|\\.{3,}"
+      },
+      {
+        "level": "3",
+        "index": 104,
+        "joke": "Why don't pencils have erasers in Europe? Because they don't make mistakes!",
+        "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
       },
       {
         "level": "4",
@@ -344,145 +47,119 @@
         "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
       },
       {
-        "level": "5",
-        "index": 1,
-        "joke": "Why did the cat become a stand-up comedian at the fancy theater during opening night? Because it was purr-fectly positioned, feline fine about everything, and whisker-ing away all doubts! Talk about cat-astrophically good with paws-itively meow-nificent results that left the audience in stitches!",
-        "length": 297,
+        "level": "4",
+        "index": 86,
+        "joke": "Why did the cat become a stand-up comedian at the fancy theater during opening night? Because it was purr-fectly positioned, feline fine about everything, and whisker-ing away!",
+        "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
+      },
+      {
+        "level": "4",
+        "index": 90,
+        "joke": "Why did the elephant become a memory therapist at the wellness center during peak season? Because it was trunk-fully equipped, never forgets anything important, and had!",
+        "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
+      },
+      {
+        "level": "4",
+        "index": 93,
+        "joke": "Why did the monkey become a computer scientist at Silicon Valley during the tech boom? Because it was bananas about innovation, had ape-solutely brilliant coding skills, and!",
+        "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
+      },
+      {
+        "level": "4",
+        "index": 97,
+        "joke": "Why did the lion become a motivational speaker at corporate retreats during leadership conferences? Because it had mane-ly charismatic presence, roar-ing confidence, and!",
+        "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
+      },
+      {
+        "level": "4",
+        "index": 100,
+        "joke": "Why did the whale become an opera singer at the Metropolitan Opera during the season finale? Because it had whale-ing good vocal range, deep-sea resonance, and could make waves!",
+        "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
+      },
+      {
+        "level": "4",
+        "index": 105,
+        "joke": "Why did the parrot become a foreign language instructor at the United Nations during international conferences? Because it had poly-glot abilities, colorful teaching methods,!",
         "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
       },
       {
         "level": "5",
         "index": 6,
-        "joke": "Why did the elephant become a memory therapist at the wellness center during peak season? Because it was trunk-fully equipped, never forgets anything important, and had pachy-dermal wisdom! Talk about mammoth success with ear-resistibly effective treatments that clients remember forever!",
-        "length": 288,
+        "joke": "Why did the fox become a detective at Scotland Yard during the Victorian era? Because it was sly-ly observant, had tail-telling investigative skills, and could den-y nothing to!",
         "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
       },
       {
         "level": "5",
-        "index": 11,
-        "joke": "Why did the monkey become a computer scientist at Silicon Valley during the tech boom? Because it was bananas about innovation, had ape-solutely brilliant coding skills, and could swing through problems with ease! Talk about going bananas with primo-rdial programming genius!",
-        "length": 275,
+        "index": 13,
+        "joke": "Why did the octopus become a multitasking consultant at Fortune 500 companies during busy mergers? Because it had eight arms for juggling projects, ink-credible problem-solving!",
         "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
       },
       {
         "level": "5",
-        "index": 12,
-        "joke": "What do you call a turtle that teaches philosophy, practices law, and performs surgery while doing yoga? A shell-shocked intellectual with slow-and-steady wisdom, turtle-ly amazing skills, and snap-ping good judgment! That's what I call shell-ebrated excellence with reptile dysfunction... wait, that came out wrong!",
-        "length": 316,
-        "pattern": "!{2,}|\\.{3,}"
-      },
-      {
-        "level": "5",
-        "index": 16,
-        "joke": "Why did the fox become a detective at Scotland Yard during the Victorian era? Because it was sly-ly observant, had tail-telling investigative skills, and could den-y nothing to justice! Talk about fur-ensic excellence with fox-y problem-solving abilities that left criminals out-fox-ed!",
-        "length": 286,
+        "index": 17,
+        "joke": "Why did the seal become a marine biologist at the aquarium during shark week? Because it had seal-ed expertise in aquatic life, flipper-fect swimming skills, and could navigate!",
         "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
       },
       {
         "level": "5",
-        "index": 21,
-        "joke": "Why did the lion become a motivational speaker at corporate retreats during leadership conferences? Because it had mane-ly charismatic presence, roar-ing confidence, and pride-ful speaking abilities! Talk about king-ly performance with claw-some inspiration that left audiences roaring with approval!",
-        "length": 300,
-        "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
-      },
-      {
-        "level": "5",
-        "index": 25,
-        "joke": "Why did the whale become an opera singer at the Metropolitan Opera during the season finale? Because it had whale-ing good vocal range, deep-sea resonance, and could make waves with every performance! Talk about mammoth talent with fin-esse that left audiences spouting with enthusiasm!",
-        "length": 286,
-        "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
-      },
-      {
-        "level": "5",
-        "index": 30,
-        "joke": "Why did the octopus become a multitasking consultant at Fortune 500 companies during busy mergers? Because it had eight arms for juggling projects, ink-credible problem-solving skills, and could tentacle any challenge! Talk about well-armed success with sucker-punch efficiency!",
-        "length": 278,
-        "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
-      },
-      {
-        "level": "5",
-        "index": 35,
-        "joke": "Why did the parrot become a foreign language instructor at the United Nations during international conferences? Because it had poly-glot abilities, colorful teaching methods, and could wing it in any situation! Talk about bird-brained brilliance with feather-ed linguistic skills that left students squawking with delight!",
-        "length": 322,
-        "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
-      },
-      {
-        "level": "5",
-        "index": 40,
-        "joke": "Why did the seal become a marine biologist at the aquarium during shark week? Because it had seal-ed expertise in aquatic life, flipper-fect swimming skills, and could navigate any depth of knowledge! Talk about water-tight qualifications with seal-iously impressive marine credentials!",
-        "length": 286,
-        "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
-      },
-      {
-        "level": "5",
-        "index": 45,
-        "joke": "Why did the lobster become a hand surgeon at the medical center during the busy emergency season? Because it had claw-some dexterity, shell-shocking precision, and could really get to the meat of any problem! Talk about crust-acean excellence with pincer-point accuracy that left patients snapping with satisfaction!",
-        "length": 316,
+        "index": 19,
+        "joke": "Why did the lobster become a hand surgeon at the medical center during the busy emergency season? Because it had claw-some dexterity, shell-shocking precision, and could really!",
         "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
       }
     ],
     "empty_strings": [],
-    "suspicious_characters": [
-      {
-        "level": "5",
-        "index": 4,
-        "joke": "A pig walked into a five-star restaurant carrying a briefcase and a harmonica during the dinner rush. The maître d' said 'Why the formal presentation?' The pig replied 'I'm ham-ming it up for my new business venture!' Everyone agreed it was squealing success with bacon-breaking innovation!",
-        "length": 290
-      }
-    ]
+    "suspicious_characters": []
   },
   "distribution_analysis": {
-    "total_jokes": 397,
+    "total_jokes": 425,
     "by_level": {
       "1": {
-        "count": 117,
-        "percentage": 29.47103274559194,
-        "avg_length": 61.00854700854701,
+        "count": 103,
+        "percentage": 24.235294117647058,
+        "avg_length": 59.883495145631066,
         "min_length": 28,
         "max_length": 131
       },
       "2": {
-        "count": 70,
-        "percentage": 17.632241813602015,
-        "avg_length": 55.75714285714286,
+        "count": 68,
+        "percentage": 16.0,
+        "avg_length": 54.455882352941174,
         "min_length": 24,
         "max_length": 75
       },
       "3": {
-        "count": 118,
-        "percentage": 29.72292191435768,
-        "avg_length": 64.02542372881356,
+        "count": 112,
+        "percentage": 26.35294117647059,
+        "avg_length": 63.74107142857143,
         "min_length": 49,
         "max_length": 105
       },
       "4": {
-        "count": 44,
-        "percentage": 11.083123425692696,
-        "avg_length": 95.8409090909091,
-        "min_length": 53,
-        "max_length": 113
+        "count": 116,
+        "percentage": 27.294117647058826,
+        "avg_length": 94.54310344827586,
+        "min_length": 42,
+        "max_length": 177
       },
       "5": {
-        "count": 48,
-        "percentage": 12.090680100755668,
-        "avg_length": 306.5416666666667,
-        "min_length": 90,
-        "max_length": 364
+        "count": 26,
+        "percentage": 6.11764705882353,
+        "avg_length": 145.46153846153845,
+        "min_length": 42,
+        "max_length": 177
       }
     },
-    "balance_score": 84.64
+    "balance_score": 85.69
   },
   "summary": {
     "overall_status": "ISSUES_FOUND",
-    "quality_score": 0,
-    "total_jokes": 397,
-    "schema_valid": false,
+    "quality_score": 70,
+    "total_jokes": 425,
+    "schema_valid": true,
     "duplicates_found": 0,
-    "quality_issues": 63,
-    "distribution_balance": 84.64,
+    "quality_issues": 15,
+    "distribution_balance": 85.69,
     "recommendations": [
-      "Fix schema validation errors before proceeding",
-      "Shorten 47 jokes that exceed 180 characters",
       "Remove explanations from 15 jokes"
     ]
   }

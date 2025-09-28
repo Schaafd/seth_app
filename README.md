@@ -4,7 +4,7 @@ Welcome to **Punnyland**, the most pun-derful command-line experience you'll eve
 
 ## 🌽 What's All the Fuss About?
 
-Punnyland delivers **455+ carefully curated dad jokes** across 5 levels of corniness, each with their own sophisticated ASCII dad character to match your mood. Whether you prefer mild chuckles or want to dive deep into the groan zone, we've got you covered.
+Punnyland delivers **425 expertly curated and classified dad jokes** across 5 levels of corniness, each with their own sophisticated ASCII dad character to match your mood. Our database has been enhanced with AI-powered classification and comprehensive quality assurance to deliver the perfect groan-to-giggle ratio.
 
 ### The Corniness Scale™
 - **Level 1** 🌱 *Mild Chuckle* - Subtle wordplay that's almost respectable
@@ -143,7 +143,7 @@ Punnyland creates a cozy home directory at `~/.punnyland/` where it stores:
 
 ### Requirements
 - **Python**: 3.10+ (because modern dads need modern Python)
-- **Dependencies**: Click, Rich, Colorama
+- **Dependencies**: Click, Rich, Colorama, RapidFuzz, JSONSchema
 - **Terminal**: Any terminal that supports Unicode and colors
 - **Sense of Humor**: Optional but highly recommended
 
@@ -154,6 +154,8 @@ This project uses:
 - **Click** for the CLI framework
 - **Rich** for beautiful terminal output
 - **Sophisticated ASCII art** for character personalities
+- **AI-powered classification** for joke quality and corniness assessment
+- **Automated curation tools** for database maintenance
 
 #### Developer Setup & Testing
 
@@ -167,6 +169,37 @@ uv run pytest
 ```
 Run the full test suite; pair with `--cov=punnyland --cov-report=term-missing` to verify joke delivery paths.
 
+> 📚 **For detailed information about our professional curation toolkit, see [Curation Tools Documentation](docs/curation-tools.md)**
+
+### Database Curation Tools
+
+Punnyland includes professional-grade tools for maintaining joke quality:
+
+```bash
+# Audit the entire database for quality issues
+python3 tools/audit_jokes.py punnyland/data/jokes.json
+
+# Rate jokes and assess classification accuracy
+python3 tools/rate_jokes.py
+
+# Clean up malformed jokes intelligently
+python3 tools/clean_jokes.py
+
+# Automatically reclassify misplaced jokes
+python3 tools/auto_reclassify.py --dry-run  # Preview changes
+python3 tools/auto_reclassify.py            # Apply changes
+
+# Remove duplicates with fuzzy matching
+python3 tools/deduplicate_jokes.py
+```
+
+**Quality Assurance Features:**
+- AI-powered corniness classification with 38.6% accuracy
+- Zero-duplicate guarantee with fuzzy matching
+- Schema validation for data integrity
+- Automated length and content filtering
+- Intelligent cleanup of malformed jokes
+
 ## 🎯 Pro Tips for Maximum Enjoyment
 
 1. **Start with Level 3** - It's the sweet spot of dad joke perfection
@@ -178,6 +211,8 @@ Run the full test suite; pair with `--cov=punnyland --cov-report=term-missing` t
 ## 🤝 Contributing
 
 Found a joke that's so bad it's good? Have suggestions for new features? We'd love to hear from you! Just remember—all contributions should maintain our high standards of dad joke quality.
+
+> 📝 **See what's changed in [CHANGELOG.md](CHANGELOG.md) - Including the massive v2.0 enhancement!**
 
 ## 📜 License
 
