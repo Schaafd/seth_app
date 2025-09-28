@@ -1,0 +1,207 @@
+{
+  "summary": {
+    "total_jokes": 425,
+    "invalid_count": 52,
+    "misclassified_count": 269
+  },
+  "worst_misclassifications": {
+    "3->2": {
+      "count": 95,
+      "examples": [
+        "What do you call a can opener that doesn't work? A can't opener!",
+        "What did the buffalo say to his son when he left for college? Bison!",
+        "Why did the pineapple wear sunglasses? It was one cool fruit!",
+        "What do you call a cow that's good at fixing things? A cow-mechanic!",
+        "Why did the cherry go to the party? It was the cherry on top!",
+        "Why did the avocado refuse to jump? It was afraid of getting smashed!",
+        "Why did the blueberry go to school? To become more well-rounded!",
+        "What do you call a fish that's good at photography? A snap-per!",
+        "Why did the coconut go to the beach? To work on its tan!",
+        "What do you call a cow that's good at detective work? A cow-p!"
+      ]
+    },
+    "1->2": {
+      "count": 54,
+      "examples": [
+        "I lost my job at the bank. A woman asked me to check her balance, so I pushed her over.",
+        "Did you hear about the restaurant on the moon? Great food, no atmosphere.",
+        "What do you call a fish wearing a crown? A king fish.",
+        "The early bird might get the worm, but the second mouse gets the cheese.",
+        "What's the best thing about Switzerland? I don't know, but the flag is a big plus.",
+        "What do you call a parade of rabbits hopping backwards? A receding hare-line.",
+        "I'm reading a book on the history of glue \u2013 can't put it down.",
+        "I told my wife she was drawing her eyebrows too high. She looked surprised.",
+        "What do you call a sleeping bull? A bulldozer.",
+        "Why did the scarecrow win an award? He was outstanding in his field."
+      ]
+    },
+    "4->2": {
+      "count": 43,
+      "examples": [
+        "Why did the math book break up with the history book?",
+        "Why don't eggs ever pay the restaurant bill? They always crack under pressure and scramble away!",
+        "What do you call a cow that's good at writing novels? A cow-thor with a bestselling series!",
+        "What do you call a fish that's good at cleaning houses professionally? A mop-fish with five-star reviews!",
+        "What do you call a fish that's good at singing opera? A tuna with perfect pitch!",
+        "What do you call a cow that's good at magic shows? A moo-gician with sold-out performances!",
+        "What do you call a dog magician at a pet show? A labracadabrador! His tricks are paws-itively amazing!",
+        "Why did the cat become a lawyer? Because it was purr-suasive and had great claw-se for argument!",
+        "What do you call a dog that works at a coffee shop? A barista with a ruff attitude but paws-itive reviews!",
+        "Why did the cow start a band? It was udderly musical and really knew how to milk the audience!"
+      ]
+    },
+    "3->1": {
+      "count": 26,
+      "examples": [
+        "Why don't vampires go to barbecues? They don't like steak!",
+        "Why don't ghosts like rain? It dampens their spirits!",
+        "Why don't zombies make good comedians? Their timing is dead!",
+        "Why don't gladiators ever give up? They fight to the finish!",
+        "Why don't vikings ever turn back? They always forge ahead!",
+        "Why don't spartans ever retreat? They stand their ground!",
+        "Why don't romans ever get lost? All roads lead to them!",
+        "Why don't greeks ever lose debates? They invented philosophy!",
+        "Why don't chinese ever give up? Persistence pays off!",
+        "Why don't japanese never lose focus? Concentration is key!"
+      ]
+    },
+    "2->1": {
+      "count": 15,
+      "examples": [
+        "I'm terrified of elevators, I'll take the stairs instead.",
+        "I used to be addicted to the Hokey Pokey, but I turned myself around.",
+        "I used to work at a library, but I got shushed too much.",
+        "I used to work at a hotel, but I couldn't handle the suite life.",
+        "I used to work at a flower shop, but I couldn't handle the pollen pressure.",
+        "I used to work at a clock factory, but I got tired of the time.",
+        "I used to work at a paper factory, but it was tearable.",
+        "I used to work at a rubber band factory, but it was too stretching.",
+        "I used to work at a mattress factory, but it was a sleepy job.",
+        "Why don't mountains ever get cold? They have snow caps!"
+      ]
+    }
+  },
+  "invalid_by_level": {
+    "1": {
+      "count": 1,
+      "examples": [
+        {
+          "joke": "What do you call a cheese that isn't yours? Nacho cheese.",
+          "issues": [
+            "Contains explanation: that is"
+          ]
+        }
+      ]
+    },
+    "2": {
+      "count": 1,
+      "examples": [
+        {
+          "joke": "Why did the cookie cry? Because its mom was a wafer so long!",
+          "issues": [
+            "Contains explanation: because"
+          ]
+        }
+      ]
+    },
+    "3": {
+      "count": 1,
+      "examples": [
+        {
+          "joke": "Why don't pencils have erasers in Europe? Because they don't make mistakes!",
+          "issues": [
+            "Contains explanation: because"
+          ]
+        }
+      ]
+    },
+    "4": {
+      "count": 2,
+      "examples": [
+        {
+          "joke": "Why did the cat become a lawyer? Because it was purr-suasive and had great claw-se for argument!",
+          "issues": [
+            "Contains explanation: because"
+          ]
+        },
+        {
+          "joke": "What do you call a turtle that loves to race? A slow-and-steady competitor with shell-shocking determination!",
+          "issues": [
+            "Contains forbidden word: hell"
+          ]
+        }
+      ]
+    },
+    "5": {
+      "count": 47,
+      "examples": [
+        {
+          "joke": "Why did the cat become a stand-up comedian at the fancy theater during opening night? Because it was purr-fectly positioned, feline fine about everything, and whisker-ing away all doubts! Talk about cat-astrophically good with paws-itively meow-nificent results that left the audience in stitches!",
+          "issues": [
+            "Too long: 297 chars (max 180)",
+            "Contains explanation: because"
+          ]
+        },
+        {
+          "joke": "What do you call a cow that performs magic tricks, teaches calculus, and runs marathons while juggling? A moo-gician with udderly incredible skills, legen-dairy dedication, and a no-bull attitude! That's what I call moo-ving and shaking with pasture-perfect performance!",
+          "issues": [
+            "Too long: 270 chars (max 180)"
+          ]
+        },
+        {
+          "joke": "I told my dog about quantum physics while we were skydiving during a thunderstorm. It said 'That's paws-itively mind-blowing!' Then it added 'But also tail-waggingly confusing!' Finally it concluded 'Overall, it's ruff but fascinating!' I thought, 'Doggone brilliant with bow-wow intellectual curiosity!'",
+          "issues": [
+            "Too long: 304 chars (max 180)"
+          ]
+        },
+        {
+          "joke": "A pig walked into a five-star restaurant carrying a briefcase and a harmonica during the dinner rush. The ma\u00eetre d' said 'Why the formal presentation?' The pig replied 'I'm ham-ming it up for my new business venture!' Everyone agreed it was squealing success with bacon-breaking innovation!",
+          "issues": [
+            "Too long: 290 chars (max 180)",
+            "Contains non-ASCII characters"
+          ]
+        },
+        {
+          "joke": "What's the difference between a symphony at Carnegie Hall and a fish at a sushi restaurant? One is a masterpiece of musical excellence with perfect harmony, the other is fin-tastically fresh with scale-ing flavors! Both are equally hook-ing in their own spectacular ways!",
+          "issues": [
+            "Too long: 271 chars (max 180)"
+          ]
+        },
+        {
+          "joke": "Why did the elephant become a memory therapist at the wellness center during peak season? Because it was trunk-fully equipped, never forgets anything important, and had pachy-dermal wisdom! Talk about mammoth success with ear-resistibly effective treatments that clients remember forever!",
+          "issues": [
+            "Too long: 288 chars (max 180)",
+            "Contains explanation: because"
+          ]
+        },
+        {
+          "joke": "What do you call a chicken that writes novels, solves crosswords, and performs Shakespeare while tap dancing? A literary genius with egg-ceptional talent, feather-brained creativity, and comb-pletely amazing performances! That's what I call poultry in motion with egg-straordinary artistic expression!",
+          "issues": [
+            "Too long: 301 chars (max 180)"
+          ]
+        },
+        {
+          "joke": "I told my rabbit friend about rocket science while we were bungee jumping off the Empire State Building. It said 'That's hop-efully accurate!' Then it added 'But also ear-resistibly complex!' Finally it concluded 'Overall, it's bunny-derful knowledge!' I thought, 'Some-bunny's really carrot-ing about education!'",
+          "issues": [
+            "Too long: 313 chars (max 180)"
+          ]
+        },
+        {
+          "joke": "A horse walked into a Broadway theater carrying a violin and a top hat during intermission of a major production. The director said 'Why the musical entrance?' The horse replied 'I'm just trying to stirrup some interest in my one-horse show!' Everyone agreed it was mane-ly spectacular entertainment!",
+          "issues": [
+            "Too long: 300 chars (max 180)"
+          ]
+        },
+        {
+          "joke": "What's the difference between a painting in the Louvre and a sheep in a meadow? One is a priceless work of art that inspires millions, the other is wool-derfully peaceful with baa-utiful simplicity! Both are equally flock-ing amazing in their unique artistic expressions!",
+          "issues": [
+            "Too long: 271 chars (max 180)"
+          ]
+        }
+      ]
+    }
+  },
+  "recommended_actions": [
+    "Clean up Level 5 invalid jokes"
+  ]
+}

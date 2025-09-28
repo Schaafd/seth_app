@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://punnyland.dev/schemas/jokes.json",
+  "title": "Punnyland Jokes Database Schema",
+  "description": "Schema for validating the Punnyland jokes database structure",
+  "type": "object",
+  "properties": {
+    "1": {
+      "type": "array",
+      "description": "Level 1 jokes - Mild Chuckle: subtle wordplay or clever twist",
+      "items": {
+        "type": "string",
+        "minLength": 10,
+        "maxLength": 180,
+        "pattern": "^[\\x00-\\x7F\\u2013\\u2014\\u2018\\u2019\\u201C\\u201D\\u2026]*$",
+        "description": "A family-friendly joke with subtle wordplay"
+      },
+      "minItems": 10,
+      "uniqueItems": true
+    },
+    "2": {
+      "type": "array", 
+      "description": "Level 2 jokes - Dad Approved: classic setups with gentle puns",
+      "items": {
+        "type": "string",
+        "minLength": 10,
+        "maxLength": 180,
+        "pattern": "^[\\x00-\\x7F\\u2013\\u2014\\u2018\\u2019\\u201C\\u201D\\u2026]*$",
+        "description": "A classic dad joke with gentle puns"
+      },
+      "minItems": 10,
+      "uniqueItems": true
+    },
+    "3": {
+      "type": "array",
+      "description": "Level 3 jokes - Eye Roll Guaranteed: obvious pun or classic dad joke forms", 
+      "items": {
+        "type": "string",
+        "minLength": 10,
+        "maxLength": 180,
+        "pattern": "^[\\x00-\\x7F\\u2013\\u2014\\u2018\\u2019\\u201C\\u201D\\u2026]*$",
+        "description": "A classic dad joke that guarantees eye rolls"
+      },
+      "minItems": 10,
+      "uniqueItems": true
+    },
+    "4": {
+      "type": "array",
+      "description": "Level 4 jokes - Groan Zone: heavy-handed pun density or clunky homophones",
+      "items": {
+        "type": "string",
+        "minLength": 10,
+        "maxLength": 180,
+        "pattern": "^[\\x00-\\x7F\\u2013\\u2014\\u2018\\u2019\\u201C\\u201D\\u2026]*$",
+        "description": "A heavily punny joke that makes people groan"
+      },
+      "minItems": 10,
+      "uniqueItems": true
+    },
+    "5": {
+      "type": "array",
+      "description": "Level 5 jokes - Ultra Corn: exaggerated wordplay that is so bad it loops to funny",
+      "items": {
+        "type": "string",
+        "minLength": 10,
+        "maxLength": 180,
+        "pattern": "^[\\x00-\\x7F\\u2013\\u2014\\u2018\\u2019\\u201C\\u201D\\u2026]*$",
+        "description": "An ultra-corny joke with exaggerated wordplay"
+      },
+      "minItems": 5,
+      "uniqueItems": true
+    }
+  },
+  "required": ["1", "2", "3", "4", "5"],
+  "additionalProperties": false,
+  "minProperties": 5,
+  "maxProperties": 5
+}

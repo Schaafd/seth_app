@@ -1,0 +1,166 @@
+{
+  "audit_timestamp": "2025-09-28T18:14:14.528383",
+  "database_file": "punnyland/data/jokes.json",
+  "schema_file": "schemas/jokes.schema.json",
+  "schema_validation": {
+    "valid": true,
+    "errors": [],
+    "warnings": []
+  },
+  "duplicate_analysis": {
+    "total_comparisons": 90100,
+    "duplicates_found": 0,
+    "duplicates": []
+  },
+  "quality_analysis": {
+    "too_short": [],
+    "too_long": [],
+    "contains_explanations": [
+      {
+        "level": "2",
+        "index": 55,
+        "joke": "Why did the cookie cry? Because its mom was a wafer so long!",
+        "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
+      },
+      {
+        "level": "3",
+        "index": 19,
+        "joke": "What do you call a fish that's a lawyer? A legal eagle... wait, that's a bird!",
+        "pattern": "!{2,}|\\.{3,}"
+      },
+      {
+        "level": "3",
+        "index": 43,
+        "joke": "Why don't unicorns ever get lost? They always follow their nose... er, horn!",
+        "pattern": "!{2,}|\\.{3,}"
+      },
+      {
+        "level": "3",
+        "index": 104,
+        "joke": "Why don't pencils have erasers in Europe? Because they don't make mistakes!",
+        "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
+      },
+      {
+        "level": "4",
+        "index": 9,
+        "joke": "Why did the cat become a lawyer? Because it was purr-suasive and had great claw-se for argument!",
+        "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
+      },
+      {
+        "level": "4",
+        "index": 86,
+        "joke": "Why did the cat become a stand-up comedian at the fancy theater during opening night? Because it was purr-fectly positioned, feline fine about everything, and whisker-ing away!",
+        "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
+      },
+      {
+        "level": "4",
+        "index": 90,
+        "joke": "Why did the elephant become a memory therapist at the wellness center during peak season? Because it was trunk-fully equipped, never forgets anything important, and had!",
+        "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
+      },
+      {
+        "level": "4",
+        "index": 93,
+        "joke": "Why did the monkey become a computer scientist at Silicon Valley during the tech boom? Because it was bananas about innovation, had ape-solutely brilliant coding skills, and!",
+        "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
+      },
+      {
+        "level": "4",
+        "index": 97,
+        "joke": "Why did the lion become a motivational speaker at corporate retreats during leadership conferences? Because it had mane-ly charismatic presence, roar-ing confidence, and!",
+        "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
+      },
+      {
+        "level": "4",
+        "index": 100,
+        "joke": "Why did the whale become an opera singer at the Metropolitan Opera during the season finale? Because it had whale-ing good vocal range, deep-sea resonance, and could make waves!",
+        "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
+      },
+      {
+        "level": "4",
+        "index": 105,
+        "joke": "Why did the parrot become a foreign language instructor at the United Nations during international conferences? Because it had poly-glot abilities, colorful teaching methods,!",
+        "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
+      },
+      {
+        "level": "5",
+        "index": 6,
+        "joke": "Why did the fox become a detective at Scotland Yard during the Victorian era? Because it was sly-ly observant, had tail-telling investigative skills, and could den-y nothing to!",
+        "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
+      },
+      {
+        "level": "5",
+        "index": 13,
+        "joke": "Why did the octopus become a multitasking consultant at Fortune 500 companies during busy mergers? Because it had eight arms for juggling projects, ink-credible problem-solving!",
+        "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
+      },
+      {
+        "level": "5",
+        "index": 17,
+        "joke": "Why did the seal become a marine biologist at the aquarium during shark week? Because it had seal-ed expertise in aquatic life, flipper-fect swimming skills, and could navigate!",
+        "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
+      },
+      {
+        "level": "5",
+        "index": 19,
+        "joke": "Why did the lobster become a hand surgeon at the medical center during the busy emergency season? Because it had claw-some dexterity, shell-shocking precision, and could really!",
+        "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
+      }
+    ],
+    "empty_strings": [],
+    "suspicious_characters": []
+  },
+  "distribution_analysis": {
+    "total_jokes": 425,
+    "by_level": {
+      "1": {
+        "count": 103,
+        "percentage": 24.235294117647058,
+        "avg_length": 59.883495145631066,
+        "min_length": 28,
+        "max_length": 131
+      },
+      "2": {
+        "count": 68,
+        "percentage": 16.0,
+        "avg_length": 54.455882352941174,
+        "min_length": 24,
+        "max_length": 75
+      },
+      "3": {
+        "count": 112,
+        "percentage": 26.35294117647059,
+        "avg_length": 63.74107142857143,
+        "min_length": 49,
+        "max_length": 105
+      },
+      "4": {
+        "count": 116,
+        "percentage": 27.294117647058826,
+        "avg_length": 94.54310344827586,
+        "min_length": 42,
+        "max_length": 177
+      },
+      "5": {
+        "count": 26,
+        "percentage": 6.11764705882353,
+        "avg_length": 145.46153846153845,
+        "min_length": 42,
+        "max_length": 177
+      }
+    },
+    "balance_score": 85.69
+  },
+  "summary": {
+    "overall_status": "ISSUES_FOUND",
+    "quality_score": 70,
+    "total_jokes": 425,
+    "schema_valid": true,
+    "duplicates_found": 0,
+    "quality_issues": 15,
+    "distribution_balance": 85.69,
+    "recommendations": [
+      "Remove explanations from 15 jokes"
+    ]
+  }
+}
