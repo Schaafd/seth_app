@@ -1,0 +1,121 @@
+{
+  "audit_timestamp": "2025-09-28T13:54:19.983407",
+  "database_file": "punnyland/data/jokes.json",
+  "schema_file": "schemas/jokes.schema.json",
+  "schema_validation": {
+    "valid": false,
+    "errors": [
+      {
+        "message": "['What do you call a dog magician at a pet show during trick competition? A labracadabrador!'] is too short",
+        "path": [
+          "5"
+        ],
+        "invalid_value": "['What do you call a dog magician at a pet show during trick competition? A labracadabrador!']"
+      }
+    ],
+    "warnings": []
+  },
+  "duplicate_analysis": {
+    "total_comparisons": 17205,
+    "duplicates_found": 0,
+    "duplicates": []
+  },
+  "quality_analysis": {
+    "too_short": [],
+    "too_long": [],
+    "contains_explanations": [
+      {
+        "level": "3",
+        "index": 3,
+        "joke": "Why did the pineapple wear sunglasses? Because it was one cool fruit!",
+        "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
+      },
+      {
+        "level": "3",
+        "index": 5,
+        "joke": "Why did the cherry go to the party? Because it was the cherry on top!",
+        "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
+      },
+      {
+        "level": "3",
+        "index": 13,
+        "joke": "Why did the kiwi move to New Zealand? Because it felt at home!",
+        "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
+      },
+      {
+        "level": "3",
+        "index": 17,
+        "joke": "Why did the dragon fruit breathe fire? Because it was having a bad day!",
+        "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
+      },
+      {
+        "level": "3",
+        "index": 19,
+        "joke": "Why did the star fruit shine so bright? Because it was a natural born star!",
+        "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
+      }
+    ],
+    "empty_strings": [],
+    "suspicious_characters": [
+      {
+        "level": "1",
+        "index": 95,
+        "joke": "What do you call a nosy pepper? Jalapeño business."
+      }
+    ]
+  },
+  "distribution_analysis": {
+    "total_jokes": 186,
+    "by_level": {
+      "1": {
+        "count": 117,
+        "percentage": 62.903225806451616,
+        "avg_length": 61.00854700854701,
+        "min_length": 28,
+        "max_length": 131
+      },
+      "2": {
+        "count": 38,
+        "percentage": 20.43010752688172,
+        "avg_length": 52.921052631578945,
+        "min_length": 24,
+        "max_length": 75
+      },
+      "3": {
+        "count": 21,
+        "percentage": 11.29032258064516,
+        "avg_length": 66.47619047619048,
+        "min_length": 54,
+        "max_length": 105
+      },
+      "4": {
+        "count": 9,
+        "percentage": 4.838709677419355,
+        "avg_length": 86.77777777777777,
+        "min_length": 53,
+        "max_length": 111
+      },
+      "5": {
+        "count": 1,
+        "percentage": 0.5376344086021506,
+        "avg_length": 90.0,
+        "min_length": 90,
+        "max_length": 90
+      }
+    },
+    "balance_score": 65.33
+  },
+  "summary": {
+    "overall_status": "ISSUES_FOUND",
+    "quality_score": 86,
+    "total_jokes": 186,
+    "schema_valid": false,
+    "duplicates_found": 0,
+    "quality_issues": 6,
+    "distribution_balance": 65.33,
+    "recommendations": [
+      "Fix schema validation errors before proceeding",
+      "Remove explanations from 5 jokes"
+    ]
+  }
+}
