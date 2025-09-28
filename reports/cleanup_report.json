@@ -1,0 +1,2082 @@
+{
+  "original_analysis": {
+    "total_jokes": 455,
+    "jokes_per_level": {
+      "1": 149,
+      "2": 96,
+      "3": 89,
+      "4": 77,
+      "5": 44
+    },
+    "duplicates": [],
+    "too_long": [
+      {
+        "level": "5",
+        "index": 3,
+        "length": 216,
+        "joke": "Why don't scientists trust atoms at molecular parties? Because they make up everything, split when things get heated, bond inappropriately, and when they get excited they become positive ions with negative attitudes!"
+      },
+      {
+        "level": "5",
+        "index": 4,
+        "length": 209,
+        "joke": "What do you call a cow that plays a musical instrument in a barn band? A moo-sician! But only if it's in a good moo-d, doesn't have beef with the other animals, and can milk the performance for all it's worth!"
+      },
+      {
+        "level": "5",
+        "index": 6,
+        "length": 244,
+        "joke": "What's the difference between a poorly dressed person on a bike and a well-dressed person on a tricycle riding through a fashion district? Attire! But the tricycle guy has more balance in life, three times the style, and is wheely well-dressed!"
+      },
+      {
+        "level": "5",
+        "index": 7,
+        "length": 230,
+        "joke": "Why did the math book break up with the history book at the library? Because it had too many problems, couldn't count on the past, was divided by their differences, and their relationship just didn't add up to a sum-thing special!"
+      },
+      {
+        "level": "5",
+        "index": 8,
+        "length": 209,
+        "joke": "What do you call a sleeping bull in a flower garden during springtime? A bulldozer in a bed of roses having beauty sleep! It's beauty and the beast of napping, but he's really pushing up daisies in his dreams!"
+      },
+      {
+        "level": "5",
+        "index": 10,
+        "length": 205,
+        "joke": "What did the left eye say to the right eye during an emotional movie? Between you and me, something smells! It was a tear-able situation that really brought tears to their pupils and made them blink twice!"
+      },
+      {
+        "level": "5",
+        "index": 11,
+        "length": 197,
+        "joke": "Why don't eggs ever pay the restaurant bill at breakfast? They always crack under pressure, scramble away from responsibility, get beaten by the situation, and are always over-easy to avoid paying!"
+      },
+      {
+        "level": "5",
+        "index": 12,
+        "length": 213,
+        "joke": "What do you call a bear with no teeth at a honey farm during harvest season? A gummy bear having a sweet time, but he can't bear the sticky situation, finds it un-bear-ably sweet, and is just gumming up the works!"
+      },
+      {
+        "level": "5",
+        "index": 14,
+        "length": 206,
+        "joke": "What's orange, sounds like a parrot, is terrible at flying, and thinks it's a bird? A carrot with delusions and aviation dreams! It's got a-peel but no wings, and its flying carrots are just pie in the sky!"
+      },
+      {
+        "level": "5",
+        "index": 15,
+        "length": 219,
+        "joke": "Why did the coffee file a police report at the donut shop during rush hour? It got mugged by a glazed criminal! The evidence was grounds for arrest, the perp was a real drip, and the whole case was brewing with trouble!"
+      },
+      {
+        "level": "5",
+        "index": 16,
+        "length": 219,
+        "joke": "What do you call a pig that does karate in a deli while ordering lunch? A pork chop with a side of ham-fu! He's bacon up the wrong tree, bringing home the bacon with his martial arts, and his moves are simply ham-azing!"
+      },
+      {
+        "level": "5",
+        "index": 17,
+        "length": 247,
+        "joke": "What did one wall say to the other wall at the comedy club during open mic night? I'll meet you at the corner for some structural humor! We're really holding up the show, supporting each other's jokes, and our comedy is wall-to-wall entertainment!"
+      },
+      {
+        "level": "5",
+        "index": 18,
+        "length": 235,
+        "joke": "Why don't scientists trust stairs in a laboratory during experiments? Because they're always up to something, might cause a step-tical reaction, are taking research to the next level, and their results are always a step above the rest!"
+      },
+      {
+        "level": "5",
+        "index": 19,
+        "length": 226,
+        "joke": "What do you call a fish wearing a bowtie at a sushi restaurant for a formal dinner? Sofishticated and ready to be the catch of the day! He's dressed to krill, swimming in style, and making quite a splash with his fashion fins!"
+      },
+      {
+        "level": "5",
+        "index": 20,
+        "length": 211,
+        "joke": "What's the best thing about Switzerland besides the chocolate, watches, and Alps? I don't know, but the flag is a big plus, their neutrality is positively Swiss, and their cheese holes are grate for ventilation!"
+      },
+      {
+        "level": "5",
+        "index": 21,
+        "length": 200,
+        "joke": "Why did the bicycle fall over at the race during the final lap? Because it was two-tired from all the wheely hard training, couldn't handle the cycle of competition, and needed to re-tire from racing!"
+      },
+      {
+        "level": "5",
+        "index": 22,
+        "length": 243,
+        "joke": "What do you call a parade of rabbits hopping backwards down the street during Easter? A receding hare-line marching in reverse! Some-bunny should carrot about direction, they're really hop-ing to get somewhere, but they're going no-where fast!"
+      },
+      {
+        "level": "5",
+        "index": 23,
+        "length": 202,
+        "joke": "What did the grape say when it got stepped on at the wine festival during harvest? Nothing, it just let out a little wine, got crushed by the experience, and decided to age gracefully into a fine whine!"
+      },
+      {
+        "level": "5",
+        "index": 24,
+        "length": 209,
+        "joke": "Why don't skeletons fight each other at Halloween parties during costume contests? They don't have the guts, are bone tired of conflict, lack the stomach for fighting, and their arguments are pretty skull-low!"
+      },
+      {
+        "level": "5",
+        "index": 25,
+        "length": 225,
+        "joke": "What's the best way to watch a fly fishing tournament on TV during fishing season? Live stream! It's reel entertainment that hooks you in, catches your attention, and really makes you want to scale up your viewing experience!"
+      },
+      {
+        "level": "5",
+        "index": 26,
+        "length": 194,
+        "joke": "What do you call a cow with no legs in a field during grazing season? Ground beef having a field day! It's udderly ridiculous, really moo-ving, and a rare medium well situation that's well-done!"
+      },
+      {
+        "level": "5",
+        "index": 27,
+        "length": 208,
+        "joke": "Why did the cookie go to the doctor feeling crumbly during flu season? Because it was feeling chiped, needed to get baked properly again, was having a tough time, and wanted to avoid crumbling under pressure!"
+      },
+      {
+        "level": "5",
+        "index": 28,
+        "length": 208,
+        "joke": "What's a skeleton's least favorite room in a haunted house during Halloween? The living room! They prefer their spaces a little more dead-icated, find it bone-chilling, and think it's got too much life in it!"
+      },
+      {
+        "level": "5",
+        "index": 29,
+        "length": 204,
+        "joke": "Why did the tomato turn red at the salad bar during lunch rush? Because it saw the salad dressing getting fresh and got saucy! Talk about a heated vegetable moment that really brought out its true colors!"
+      },
+      {
+        "level": "5",
+        "index": 30,
+        "length": 219,
+        "joke": "What do you call a belt made of watches in a time zone during daylight savings? A waist of time! But at least you'll never be late for anything, you'll always be fashionably on time, and it's a timely fashion statement!"
+      },
+      {
+        "level": "5",
+        "index": 31,
+        "length": 191,
+        "joke": "What do you call a deer with no eyes in the forest during hunting season? No idea! But it's blind to the obvious, can't see the forest for the trees, and is really fawn-d of stumbling around!"
+      },
+      {
+        "level": "5",
+        "index": 32,
+        "length": 226,
+        "joke": "Why did the stadium get hot after the baseball game during summer? All the fans left! Now that's what I call a heated situation with no air circulation, the temperature really reached a fever pitch, and it was a real hot mess!"
+      },
+      {
+        "level": "5",
+        "index": 33,
+        "length": 207,
+        "joke": "What do you call a can opener that doesn't work in the kitchen during dinner prep? A can't opener! It's not very a-peel-ing, leaves you in a jam, and really opens up a can of worms about kitchen reliability!"
+      },
+      {
+        "level": "5",
+        "index": 34,
+        "length": 210,
+        "joke": "Why don't oysters share at seafood restaurants during happy hour? Because they're shellfish! They clam up when asked to give, are very shell-centered, and think sharing is for the birds... or should I say fish!"
+      },
+      {
+        "level": "5",
+        "index": 35,
+        "length": 226,
+        "joke": "What did the janitor say when he jumped out of the supply closet during spring cleaning? Supplies! He really swept them off their feet with his cleaning humor, mopped the floor with that joke, and dusted off his best material!"
+      },
+      {
+        "level": "5",
+        "index": 36,
+        "length": 197,
+        "joke": "Why did the picture go to jail for a crime during an art heist? Because it was framed! The evidence was pretty sketchy, the whole thing was picture-perfect, and it was clearly a brush with the law!"
+      },
+      {
+        "level": "5",
+        "index": 37,
+        "length": 202,
+        "joke": "What do you call a dog magician at a pet show during trick competition? A labracadabrador! His tricks are paws-itively amazing, he's got some ruff magic, and his performance is absolutely spell-binding!"
+      },
+      {
+        "level": "5",
+        "index": 38,
+        "length": 248,
+        "joke": "What did the buffalo say to his son when he left for college in the prairie during graduation season? Bison! That's a farewell worth remembering across the plains, really herds the emotions together, and shows he's got a lot of bull-ief in his son!"
+      },
+      {
+        "level": "5",
+        "index": 39,
+        "length": 237,
+        "joke": "Why did the computer go to the doctor with technical problems during a system crash? Because it had a virus! It needed some anti-bodies software to boot up properly, was feeling a bit buggy, and wanted to avoid a complete system failure!"
+      },
+      {
+        "level": "5",
+        "index": 41,
+        "length": 216,
+        "joke": "Why did the banana go to the doctor feeling sick during fruit flu season? It wasn't peeling well! The doc said it was an a-peel-ing case of fruit flu, it was going bananas with worry, and split when things got tough!"
+      },
+      {
+        "level": "5",
+        "index": 42,
+        "length": 192,
+        "joke": "What do you call a group of disorganized cats during a cat show? A cat-astrophe! They're feline pretty scattered, can't get their paws together, and the whole situation is purr-fectly chaotic!"
+      },
+      {
+        "level": "5",
+        "index": 43,
+        "length": 203,
+        "joke": "Why did the pencil go to school during back-to-school season? To get sharper! But it kept breaking under pressure, couldn't make the grade, and found that school was pointless without proper lead-ership!"
+      }
+    ],
+    "with_explanations": [
+      {
+        "level": "1",
+        "index": 16,
+        "joke": "I haven't slept for ten days, because that would be too long."
+      },
+      {
+        "level": "1",
+        "index": 17,
+        "joke": "A bicycle can't stand on its own because it's two-tired."
+      },
+      {
+        "level": "1",
+        "index": 21,
+        "joke": "Why don't scientists trust atoms? Because they make up everything."
+      },
+      {
+        "level": "1",
+        "index": 72,
+        "joke": "Why did the scarecrow win an award? Because he was outstanding in his field."
+      },
+      {
+        "level": "1",
+        "index": 81,
+        "joke": "I'm afraid for the calendar because its days are numbered."
+      },
+      {
+        "level": "1",
+        "index": 82,
+        "joke": "What do you call a bear that's stuck in the rain? A drizzly bear."
+      },
+      {
+        "level": "1",
+        "index": 134,
+        "joke": "I used to work at a restaurant called 'The Flying Pan.' I had to quit because I wasn't ready for the high steaks environment."
+      },
+      {
+        "level": "1",
+        "index": 139,
+        "joke": "What do you call a fish that's good at basketball? A ball hog."
+      },
+      {
+        "level": "1",
+        "index": 143,
+        "joke": "What do you call a cow that's just given birth? Decalfinated."
+      },
+      {
+        "level": "1",
+        "index": 145,
+        "joke": "What do you call a fish that's good at volleyball? An angelfish."
+      },
+      {
+        "level": "1",
+        "index": 147,
+        "joke": "What do you call a cow that's good at karate? A kung-fu cow."
+      },
+      {
+        "level": "2",
+        "index": 0,
+        "joke": "Why don't scientists trust atoms? Because they make up everything!"
+      },
+      {
+        "level": "2",
+        "index": 3,
+        "joke": "Why did the scarecrow win an award? Because he was outstanding in his field!"
+      },
+      {
+        "level": "2",
+        "index": 9,
+        "joke": "Why did the math book look so sad? Because it was full of problems!"
+      },
+      {
+        "level": "2",
+        "index": 20,
+        "joke": "Why don't scientists trust stairs? Because they're always up to something!"
+      },
+      {
+        "level": "2",
+        "index": 23,
+        "joke": "Why did the bicycle fall over? Because it was two-tired!"
+      },
+      {
+        "level": "2",
+        "index": 29,
+        "joke": "Why did the cookie go to the doctor? Because it felt crumbly!"
+      },
+      {
+        "level": "2",
+        "index": 32,
+        "joke": "Why did the tomato turn red? Because it saw the salad dressing!"
+      },
+      {
+        "level": "2",
+        "index": 52,
+        "joke": "Why don't oysters share? Because they're shellfish!"
+      },
+      {
+        "level": "2",
+        "index": 54,
+        "joke": "What do you call a fish that's good at basketball? A ball hog!"
+      },
+      {
+        "level": "2",
+        "index": 56,
+        "joke": "What do you call a cow that's just given birth? Decalfinated!"
+      },
+      {
+        "level": "2",
+        "index": 57,
+        "joke": "What do you call a fish that's good at volleyball? An angelfish!"
+      },
+      {
+        "level": "2",
+        "index": 59,
+        "joke": "What do you call a cow that's good at karate? A kung-fu cow!"
+      },
+      {
+        "level": "2",
+        "index": 61,
+        "joke": "What do you call a fish that's wearing a crown? Your royal high-ness!"
+      },
+      {
+        "level": "2",
+        "index": 63,
+        "joke": "What do you call a cow that's good at math? A calcu-later!"
+      },
+      {
+        "level": "2",
+        "index": 65,
+        "joke": "What do you call a fish that's good at tennis? A racket fish!"
+      },
+      {
+        "level": "2",
+        "index": 66,
+        "joke": "Why did the banana split? Because it saw the ice cream!"
+      },
+      {
+        "level": "2",
+        "index": 67,
+        "joke": "What do you call a cow that's good at dancing? A moo-ver and shaker!"
+      },
+      {
+        "level": "2",
+        "index": 69,
+        "joke": "What do you call a fish that's good at soccer? A goal-fish!"
+      },
+      {
+        "level": "2",
+        "index": 71,
+        "joke": "What do you call a cow that's good at singing? A moo-sician!"
+      },
+      {
+        "level": "2",
+        "index": 73,
+        "joke": "What do you call a fish that's good at baseball? A catch!"
+      },
+      {
+        "level": "2",
+        "index": 75,
+        "joke": "What do you call a cow that's good at comedy? A laugh-stock!"
+      },
+      {
+        "level": "2",
+        "index": 77,
+        "joke": "What do you call a fish that's good at hockey? A puck-fish!"
+      },
+      {
+        "level": "2",
+        "index": 78,
+        "joke": "Why did the grape stop in the middle of the road? Because it ran out of juice!"
+      },
+      {
+        "level": "2",
+        "index": 79,
+        "joke": "What do you call a cow that's good at painting? An art-ist!"
+      },
+      {
+        "level": "2",
+        "index": 81,
+        "joke": "What do you call a fish that's good at golf? A hole-in-one fish!"
+      },
+      {
+        "level": "2",
+        "index": 83,
+        "joke": "What do you call a cow that's good at writing? A cow-thor!"
+      },
+      {
+        "level": "2",
+        "index": 85,
+        "joke": "What do you call a fish that's good at swimming? A swim-fish!"
+      },
+      {
+        "level": "2",
+        "index": 86,
+        "joke": "Why did the watermelon have a big wedding? Because it cantaloupe!"
+      },
+      {
+        "level": "2",
+        "index": 87,
+        "joke": "What do you call a cow that's good at acting? A cow-star!"
+      },
+      {
+        "level": "2",
+        "index": 89,
+        "joke": "What do you call a fish that's good at cooking? A chef-fish!"
+      },
+      {
+        "level": "2",
+        "index": 90,
+        "joke": "Why did the strawberry cry? Because its parents were in a jam!"
+      },
+      {
+        "level": "2",
+        "index": 91,
+        "joke": "What do you call a cow that's good at teaching? A cow-structor!"
+      },
+      {
+        "level": "2",
+        "index": 93,
+        "joke": "What do you call a fish that's good at cleaning? A mop-fish!"
+      },
+      {
+        "level": "2",
+        "index": 95,
+        "joke": "What do you call a cow that's good at fixing things? A cow-mechanic!"
+      },
+      {
+        "level": "3",
+        "index": 0,
+        "joke": "Why don't scientists trust atoms? Because they make up everything and they're always bonding!"
+      },
+      {
+        "level": "3",
+        "index": 9,
+        "joke": "Why did the math book look so sad? Because it was full of problems and nobody wanted to solve them!"
+      },
+      {
+        "level": "3",
+        "index": 12,
+        "joke": "Why did the golfer bring two pairs of pants? In case he got a hole in one! That's par for the course!"
+      },
+      {
+        "level": "3",
+        "index": 20,
+        "joke": "Why did the bicycle fall over? Because it was two-tired! It needed a wheel good rest!"
+      },
+      {
+        "level": "3",
+        "index": 26,
+        "joke": "Why did the cookie go to the doctor? Because it felt crumbly! The doc said it was chiped!"
+      },
+      {
+        "level": "3",
+        "index": 28,
+        "joke": "Why did the tomato turn red? Because it saw the salad dressing! Talk about saucy behavior!"
+      },
+      {
+        "level": "3",
+        "index": 31,
+        "joke": "Why don't scientists trust stairs? Because they're always up to something! Step by step conspiracy!"
+      },
+      {
+        "level": "3",
+        "index": 32,
+        "joke": "What do you call a boomerang that doesn't come back? A stick! That's throwing away a good opportunity!"
+      },
+      {
+        "level": "3",
+        "index": 33,
+        "joke": "Why did the stadium get hot after the game? All the fans left! Now that's what I call a heated situation!"
+      },
+      {
+        "level": "3",
+        "index": 35,
+        "joke": "Why don't oysters share? Because they're shellfish! They clam up when asked to give!"
+      },
+      {
+        "level": "3",
+        "index": 37,
+        "joke": "Why did the picture go to jail? Because it was framed! The evidence was pretty sketchy!"
+      },
+      {
+        "level": "3",
+        "index": 40,
+        "joke": "What did the buffalo say to his son when he left for college? Bison! That's a farewell worth remembering!"
+      },
+      {
+        "level": "3",
+        "index": 41,
+        "joke": "Why did the computer go to the doctor? Because it had a virus! It needed some anti-bodies software!"
+      },
+      {
+        "level": "3",
+        "index": 47,
+        "joke": "Why did the chicken cross the playground? To get to the other slide! That's some serious monkey business!"
+      },
+      {
+        "level": "3",
+        "index": 48,
+        "joke": "What do you call a fish that's good at basketball? A ball hog! He's really making a splash!"
+      },
+      {
+        "level": "3",
+        "index": 50,
+        "joke": "What do you call a cow that's just given birth? Decalfinated! She's feeling a little light-headed!"
+      },
+      {
+        "level": "3",
+        "index": 52,
+        "joke": "What do you call a fish that's good at tennis? A racket fish! He's got a mean serve!"
+      },
+      {
+        "level": "3",
+        "index": 53,
+        "joke": "Why did the banana split? Because it saw the ice cream! It couldn't resist the temptation!"
+      },
+      {
+        "level": "3",
+        "index": 54,
+        "joke": "What do you call a cow that's good at dancing? A moo-ver and shaker! She's got all the right moo-ves!"
+      },
+      {
+        "level": "3",
+        "index": 56,
+        "joke": "What do you call a fish that's good at soccer? A goal-fish! He's always scoring big!"
+      },
+      {
+        "level": "3",
+        "index": 58,
+        "joke": "What do you call a cow that's good at comedy? A laugh-stock! She's always milking the audience!"
+      },
+      {
+        "level": "3",
+        "index": 59,
+        "joke": "Why did the grape stop in the middle of the road? Because it ran out of juice! It was wine-ing about being tired!"
+      },
+      {
+        "level": "3",
+        "index": 60,
+        "joke": "What do you call a fish that's good at golf? A hole-in-one fish! He's really on par!"
+      },
+      {
+        "level": "3",
+        "index": 62,
+        "joke": "What do you call a cow that's good at writing? A cow-thor! She's always got a good tail to tell!"
+      },
+      {
+        "level": "3",
+        "index": 63,
+        "joke": "Why did the watermelon have a big wedding? Because it cantaloupe! It was a fruit-ful union!"
+      },
+      {
+        "level": "3",
+        "index": 64,
+        "joke": "What do you call a fish that's good at cooking? A chef-fish! He's always whipping up something special!"
+      },
+      {
+        "level": "3",
+        "index": 65,
+        "joke": "Why did the strawberry cry? Because its parents were in a jam! It was a really sticky situation!"
+      },
+      {
+        "level": "3",
+        "index": 66,
+        "joke": "What do you call a cow that's good at teaching? A cow-structor! She's always building knowledge!"
+      },
+      {
+        "level": "3",
+        "index": 68,
+        "joke": "What do you call a fish that's good at cleaning? A mop-fish! He always leaves things spotless!"
+      },
+      {
+        "level": "3",
+        "index": 69,
+        "joke": "Why did the pineapple wear sunglasses? Because it was one cool fruit! It didn't want to get roasted!"
+      },
+      {
+        "level": "3",
+        "index": 70,
+        "joke": "What do you call a cow that's good at fixing things? A cow-mechanic! She's always got the right tools for the job!"
+      },
+      {
+        "level": "3",
+        "index": 71,
+        "joke": "Why did the cherry go to the party? Because it was the cherry on top! It wanted to be the highlight!"
+      },
+      {
+        "level": "3",
+        "index": 72,
+        "joke": "What do you call a fish that's good at singing? A tuna! He's always hitting the right notes!"
+      },
+      {
+        "level": "3",
+        "index": 74,
+        "joke": "What do you call a cow that's good at magic? A moo-gician! She's always pulling rabbits out of her hat!"
+      },
+      {
+        "level": "3",
+        "index": 76,
+        "joke": "What do you call a fish that's good at photography? A snap-per! He's always capturing the perfect moment!"
+      },
+      {
+        "level": "3",
+        "index": 78,
+        "joke": "What do you call a cow that's good at detective work? A cow-p! She's always solving mysteries!"
+      },
+      {
+        "level": "3",
+        "index": 80,
+        "joke": "What do you call a fish that's good at construction? A hammer-head! He's always building something new!"
+      },
+      {
+        "level": "3",
+        "index": 81,
+        "joke": "Why did the kiwi move to New Zealand? Because it felt at home! It was a natural fit!"
+      },
+      {
+        "level": "3",
+        "index": 82,
+        "joke": "What do you call a cow that's good at meteorology? A weather-cow! She's always predicting moo-dy weather!"
+      },
+      {
+        "level": "3",
+        "index": 84,
+        "joke": "What do you call a fish that's good at gardening? A plant-fish! He's got a green thumb!"
+      },
+      {
+        "level": "3",
+        "index": 85,
+        "joke": "Why did the dragon fruit breathe fire? Because it was having a bad day! It was feeling a little heated!"
+      },
+      {
+        "level": "3",
+        "index": 86,
+        "joke": "What do you call a cow that's good at astronomy? A space-cow! She's always reaching for the stars!"
+      },
+      {
+        "level": "3",
+        "index": 87,
+        "joke": "Why did the star fruit shine so bright? Because it was a natural born star! It couldn't help but sparkle!"
+      },
+      {
+        "level": "3",
+        "index": 88,
+        "joke": "What do you call a fish that's good at archaeology? A fossil fish! He's always digging up the past!"
+      },
+      {
+        "level": "4",
+        "index": 3,
+        "joke": "Why don't scientists trust atoms? Because they make up everything, and when they get excited, they become ions!"
+      },
+      {
+        "level": "4",
+        "index": 4,
+        "joke": "What do you call a cow that plays a musical instrument? A moo-sician! But only if it's in a good moo-d!"
+      },
+      {
+        "level": "4",
+        "index": 7,
+        "joke": "Why did the math book break up with the history book? Because it had too many problems and couldn't count on the past!"
+      },
+      {
+        "level": "4",
+        "index": 13,
+        "joke": "I used to play piano by ear, but now I use my hands because my ears couldn't handle the key changes!"
+      },
+      {
+        "level": "4",
+        "index": 18,
+        "joke": "Why don't scientists trust stairs in a laboratory? Because they're always up to something and might cause a step-tical reaction!"
+      },
+      {
+        "level": "4",
+        "index": 21,
+        "joke": "Why did the bicycle fall over at the race? Because it was two-tired from all the wheely hard training!"
+      },
+      {
+        "level": "4",
+        "index": 27,
+        "joke": "Why did the cookie go to the doctor feeling crumbly? Because it was feeling chiped and needed to get baked properly again!"
+      },
+      {
+        "level": "4",
+        "index": 29,
+        "joke": "Why did the tomato turn red at the salad bar? Because it saw the salad dressing and got saucy! Talk about a heated vegetable moment!"
+      },
+      {
+        "level": "4",
+        "index": 32,
+        "joke": "Why did the stadium get hot after the baseball game? All the fans left! Now that's what I call a heated situation with no air circulation!"
+      },
+      {
+        "level": "4",
+        "index": 34,
+        "joke": "Why don't oysters share at seafood restaurants? Because they're shellfish! They clam up when asked to give and are very shell-centered!"
+      },
+      {
+        "level": "4",
+        "index": 36,
+        "joke": "Why did the picture go to jail for a crime? Because it was framed! The evidence was pretty sketchy and the whole thing was picture-perfect!"
+      },
+      {
+        "level": "4",
+        "index": 38,
+        "joke": "What did the buffalo say to his son when he left for college in the prairie? Bison! That's a farewell worth remembering across the plains!"
+      },
+      {
+        "level": "4",
+        "index": 39,
+        "joke": "Why did the computer go to the doctor with technical problems? Because it had a virus! It needed some anti-bodies software to boot up properly!"
+      },
+      {
+        "level": "4",
+        "index": 46,
+        "joke": "What do you call a fish that's good at basketball in the NBA? A ball hog with fins! He's making waves in the league!"
+      },
+      {
+        "level": "4",
+        "index": 48,
+        "joke": "What do you call a cow that's just given birth in the hospital? Decalfinated and exhausted! She needed some serious moo-ternity leave!"
+      },
+      {
+        "level": "4",
+        "index": 50,
+        "joke": "What do you call a fish that's good at tennis at Wimbledon? A racket fish with perfect form! He's serving up aces!"
+      },
+      {
+        "level": "4",
+        "index": 51,
+        "joke": "Why did the banana split at the ice cream parlor? Because it saw the sundae and couldn't resist the sweet temptation!"
+      },
+      {
+        "level": "4",
+        "index": 52,
+        "joke": "What do you call a cow that's good at dancing on Broadway? A moo-ver and shaker with serious stage presence! She's got all the right moo-ves!"
+      },
+      {
+        "level": "4",
+        "index": 54,
+        "joke": "What do you call a fish that's good at soccer in the World Cup? A goal-fish with championship dreams! He's always scoring when it counts!"
+      },
+      {
+        "level": "4",
+        "index": 56,
+        "joke": "What do you call a cow that's good at comedy at the comedy club? A laugh-stock with perfect timing! She's always milking the audience for laughs!"
+      },
+      {
+        "level": "4",
+        "index": 57,
+        "joke": "Why did the grape stop in the middle of the marathon? Because it ran out of juice and was wine-ing about being tired!"
+      },
+      {
+        "level": "4",
+        "index": 58,
+        "joke": "What do you call a fish that's good at golf at the Masters? A hole-in-one fish with pro-level skills! He's really on par with the best!"
+      },
+      {
+        "level": "4",
+        "index": 60,
+        "joke": "What do you call a cow that's good at writing novels? A cow-thor with a bestselling series! She's always got a good tail to tell!"
+      },
+      {
+        "level": "4",
+        "index": 61,
+        "joke": "Why did the watermelon have a big wedding in the summer? Because it cantaloupe and wanted a fruit-ful union with all the fixings!"
+      },
+      {
+        "level": "4",
+        "index": 62,
+        "joke": "What do you call a fish that's good at cooking on TV? A chef-fish with his own cooking show! He's always whipping up something special!"
+      },
+      {
+        "level": "4",
+        "index": 63,
+        "joke": "Why did the strawberry cry at the farmers market? Because its parents were in a jam and it was a really sticky family situation!"
+      },
+      {
+        "level": "4",
+        "index": 64,
+        "joke": "What do you call a cow that's good at teaching math? A cow-structor with tenure! She's always building knowledge and solving for X!"
+      },
+      {
+        "level": "4",
+        "index": 66,
+        "joke": "What do you call a fish that's good at cleaning houses professionally? A mop-fish with five-star reviews! He always leaves things spotless!"
+      },
+      {
+        "level": "4",
+        "index": 67,
+        "joke": "Why did the pineapple wear sunglasses to the beach? Because it was one cool fruit and didn't want to get roasted by the sun!"
+      },
+      {
+        "level": "4",
+        "index": 68,
+        "joke": "What do you call a cow that's good at fixing cars? A cow-mechanic with her own garage! She's always got the right tools for any job!"
+      },
+      {
+        "level": "4",
+        "index": 69,
+        "joke": "Why did the cherry go to the fancy party? Because it was the cherry on top and wanted to be the highlight of the evening!"
+      },
+      {
+        "level": "4",
+        "index": 70,
+        "joke": "What do you call a fish that's good at singing opera? A tuna with perfect pitch! He's always hitting the high notes beautifully!"
+      },
+      {
+        "level": "4",
+        "index": 72,
+        "joke": "What do you call a cow that's good at magic shows? A moo-gician with sold-out performances! She's always pulling rabbits out of her hat!"
+      },
+      {
+        "level": "4",
+        "index": 74,
+        "joke": "What do you call a fish that's good at photography? A snap-per with an eye for detail! He's always capturing the perfect candid moment!"
+      },
+      {
+        "level": "4",
+        "index": 76,
+        "joke": "What do you call a cow that's good at detective work? A cow-p with a perfect solve rate! She's always cracking the toughest cases!"
+      },
+      {
+        "level": "5",
+        "index": 3,
+        "joke": "Why don't scientists trust atoms at molecular parties? Because they make up everything, split when things get heated, bond inappropriately, and when they get excited they become positive ions with negative attitudes!"
+      },
+      {
+        "level": "5",
+        "index": 4,
+        "joke": "What do you call a cow that plays a musical instrument in a barn band? A moo-sician! But only if it's in a good moo-d, doesn't have beef with the other animals, and can milk the performance for all it's worth!"
+      },
+      {
+        "level": "5",
+        "index": 7,
+        "joke": "Why did the math book break up with the history book at the library? Because it had too many problems, couldn't count on the past, was divided by their differences, and their relationship just didn't add up to a sum-thing special!"
+      },
+      {
+        "level": "5",
+        "index": 13,
+        "joke": "I used to play piano by ear, but now I use my hands because my ears couldn't handle the key changes, the notes were falling on deaf ears, and my hearing was off-key!"
+      },
+      {
+        "level": "5",
+        "index": 18,
+        "joke": "Why don't scientists trust stairs in a laboratory during experiments? Because they're always up to something, might cause a step-tical reaction, are taking research to the next level, and their results are always a step above the rest!"
+      },
+      {
+        "level": "5",
+        "index": 21,
+        "joke": "Why did the bicycle fall over at the race during the final lap? Because it was two-tired from all the wheely hard training, couldn't handle the cycle of competition, and needed to re-tire from racing!"
+      },
+      {
+        "level": "5",
+        "index": 26,
+        "joke": "What do you call a cow with no legs in a field during grazing season? Ground beef having a field day! It's udderly ridiculous, really moo-ving, and a rare medium well situation that's well-done!"
+      },
+      {
+        "level": "5",
+        "index": 27,
+        "joke": "Why did the cookie go to the doctor feeling crumbly during flu season? Because it was feeling chiped, needed to get baked properly again, was having a tough time, and wanted to avoid crumbling under pressure!"
+      },
+      {
+        "level": "5",
+        "index": 29,
+        "joke": "Why did the tomato turn red at the salad bar during lunch rush? Because it saw the salad dressing getting fresh and got saucy! Talk about a heated vegetable moment that really brought out its true colors!"
+      },
+      {
+        "level": "5",
+        "index": 32,
+        "joke": "Why did the stadium get hot after the baseball game during summer? All the fans left! Now that's what I call a heated situation with no air circulation, the temperature really reached a fever pitch, and it was a real hot mess!"
+      },
+      {
+        "level": "5",
+        "index": 34,
+        "joke": "Why don't oysters share at seafood restaurants during happy hour? Because they're shellfish! They clam up when asked to give, are very shell-centered, and think sharing is for the birds... or should I say fish!"
+      },
+      {
+        "level": "5",
+        "index": 36,
+        "joke": "Why did the picture go to jail for a crime during an art heist? Because it was framed! The evidence was pretty sketchy, the whole thing was picture-perfect, and it was clearly a brush with the law!"
+      },
+      {
+        "level": "5",
+        "index": 38,
+        "joke": "What did the buffalo say to his son when he left for college in the prairie during graduation season? Bison! That's a farewell worth remembering across the plains, really herds the emotions together, and shows he's got a lot of bull-ief in his son!"
+      },
+      {
+        "level": "5",
+        "index": 39,
+        "joke": "Why did the computer go to the doctor with technical problems during a system crash? Because it had a virus! It needed some anti-bodies software to boot up properly, was feeling a bit buggy, and wanted to avoid a complete system failure!"
+      }
+    ],
+    "average_length_per_level": {
+      "1": 62.41610738255034,
+      "2": 61.75,
+      "3": 93.7752808988764,
+      "4": 121.85714285714286,
+      "5": 205.75
+    }
+  },
+  "final_analysis": {
+    "total_jokes": 550,
+    "jokes_per_level": {
+      "1": 169,
+      "2": 116,
+      "3": 109,
+      "4": 97,
+      "5": 59
+    },
+    "duplicates": [
+      {
+        "level": "1",
+        "index": 145,
+        "joke": "What do you call a fish"
+      },
+      {
+        "level": "1",
+        "index": 147,
+        "joke": "What do you call a cow"
+      },
+      {
+        "level": "1",
+        "index": 149,
+        "joke": "I used to be a banker, but I lost interest."
+      },
+      {
+        "level": "1",
+        "index": 151,
+        "joke": "The math teacher called in sick with algebra."
+      },
+      {
+        "level": "1",
+        "index": 153,
+        "joke": "I'm reading a book about anti-gravity. It's impossible to put down."
+      },
+      {
+        "level": "1",
+        "index": 154,
+        "joke": "I told my wife she was drawing her eyebrows too high. She looked surprised."
+      },
+      {
+        "level": "1",
+        "index": 155,
+        "joke": "The early bird might get the worm, but the second mouse gets the cheese."
+      },
+      {
+        "level": "1",
+        "index": 157,
+        "joke": "What's the best thing about Switzerland? I don't know, but the flag is a big plus."
+      },
+      {
+        "level": "1",
+        "index": 158,
+        "joke": "I'm terrified of elevators, so I take steps to avoid them."
+      },
+      {
+        "level": "1",
+        "index": 159,
+        "joke": "I only know 25 letters of the alphabet. I don't know Y."
+      },
+      {
+        "level": "1",
+        "index": 160,
+        "joke": "I'm on a seafood diet. I see food and I eat it."
+      },
+      {
+        "level": "1",
+        "index": 161,
+        "joke": "I used to play piano by ear, but now I use my hands."
+      },
+      {
+        "level": "1",
+        "index": 162,
+        "joke": "What do you call a fish wearing a crown? A king fish."
+      },
+      {
+        "level": "1",
+        "index": 163,
+        "joke": "What's orange and sounds like a parrot? A carrot."
+      },
+      {
+        "level": "1",
+        "index": 164,
+        "joke": "I used to be addicted to soap, but I'm clean now."
+      },
+      {
+        "level": "1",
+        "index": 165,
+        "joke": "What do you call a sleeping bull? A bulldozer."
+      },
+      {
+        "level": "1",
+        "index": 166,
+        "joke": "What do you call a bear with no teeth? A gummy bear."
+      },
+      {
+        "level": "1",
+        "index": 167,
+        "joke": "I'm afraid for the calendar. Its days are numbered."
+      },
+      {
+        "level": "1",
+        "index": 168,
+        "joke": "What do you call a fake noodle? An impasta."
+      },
+      {
+        "level": "2",
+        "index": 0,
+        "joke": "Why don't scientists trust atoms?"
+      },
+      {
+        "level": "2",
+        "index": 3,
+        "joke": "Why did the scarecrow win an award?"
+      },
+      {
+        "level": "2",
+        "index": 54,
+        "joke": "What do you call a fish"
+      },
+      {
+        "level": "2",
+        "index": 56,
+        "joke": "What do you call a cow"
+      },
+      {
+        "level": "2",
+        "index": 57,
+        "joke": "What do you call a fish"
+      },
+      {
+        "level": "2",
+        "index": 59,
+        "joke": "What do you call a cow"
+      },
+      {
+        "level": "2",
+        "index": 61,
+        "joke": "What do you call a fish"
+      },
+      {
+        "level": "2",
+        "index": 63,
+        "joke": "What do you call a cow"
+      },
+      {
+        "level": "2",
+        "index": 65,
+        "joke": "What do you call a fish"
+      },
+      {
+        "level": "2",
+        "index": 67,
+        "joke": "What do you call a cow"
+      },
+      {
+        "level": "2",
+        "index": 69,
+        "joke": "What do you call a fish"
+      },
+      {
+        "level": "2",
+        "index": 71,
+        "joke": "What do you call a cow"
+      },
+      {
+        "level": "2",
+        "index": 73,
+        "joke": "What do you call a fish"
+      },
+      {
+        "level": "2",
+        "index": 75,
+        "joke": "What do you call a cow"
+      },
+      {
+        "level": "2",
+        "index": 77,
+        "joke": "What do you call a fish"
+      },
+      {
+        "level": "2",
+        "index": 79,
+        "joke": "What do you call a cow"
+      },
+      {
+        "level": "2",
+        "index": 81,
+        "joke": "What do you call a fish"
+      },
+      {
+        "level": "2",
+        "index": 83,
+        "joke": "What do you call a cow"
+      },
+      {
+        "level": "2",
+        "index": 85,
+        "joke": "What do you call a fish"
+      },
+      {
+        "level": "2",
+        "index": 87,
+        "joke": "What do you call a cow"
+      },
+      {
+        "level": "2",
+        "index": 89,
+        "joke": "What do you call a fish"
+      },
+      {
+        "level": "2",
+        "index": 91,
+        "joke": "What do you call a cow"
+      },
+      {
+        "level": "2",
+        "index": 93,
+        "joke": "What do you call a fish"
+      },
+      {
+        "level": "2",
+        "index": 95,
+        "joke": "What do you call a cow"
+      },
+      {
+        "level": "2",
+        "index": 97,
+        "joke": "What do you call a fake noodle? An impasta!"
+      },
+      {
+        "level": "2",
+        "index": 98,
+        "joke": "I told my wife she should embrace her mistakes. She hugged me."
+      },
+      {
+        "level": "2",
+        "index": 100,
+        "joke": "What do you call a sleeping bull? A bulldozer!"
+      },
+      {
+        "level": "2",
+        "index": 101,
+        "joke": "Why don't eggs tell jokes? They'd crack each other up!"
+      },
+      {
+        "level": "2",
+        "index": 102,
+        "joke": "What do you call a bear with no teeth? A gummy bear!"
+      },
+      {
+        "level": "2",
+        "index": 104,
+        "joke": "What do you call a dinosaur that crashes his car? Tyrannosaurus Wrecks!"
+      },
+      {
+        "level": "2",
+        "index": 105,
+        "joke": "What did the ocean say to the beach? Nothing, it just waved!"
+      },
+      {
+        "level": "2",
+        "index": 106,
+        "joke": "Why did the golfer bring two pairs of pants? In case he got a hole in one!"
+      },
+      {
+        "level": "2",
+        "index": 107,
+        "joke": "What do you call a factory that sells passable products? A satisfactory!"
+      },
+      {
+        "level": "2",
+        "index": 108,
+        "joke": "What's orange and sounds like a parrot? A carrot!"
+      },
+      {
+        "level": "2",
+        "index": 109,
+        "joke": "Why did the coffee file a police report? It got mugged!"
+      },
+      {
+        "level": "2",
+        "index": 110,
+        "joke": "What do you call a pig that does karate? A pork chop!"
+      },
+      {
+        "level": "2",
+        "index": 111,
+        "joke": "What did one wall say to the other wall? I'll meet you at the corner!"
+      },
+      {
+        "level": "2",
+        "index": 112,
+        "joke": "What do you call a fish wearing a bowtie? Sofishticated!"
+      },
+      {
+        "level": "2",
+        "index": 114,
+        "joke": "What do you call a parade of rabbits hopping backwards? A receding hare-line!"
+      },
+      {
+        "level": "2",
+        "index": 115,
+        "joke": "What did the grape say when it got stepped on? Nothing, it just let out a little wine!"
+      },
+      {
+        "level": "3",
+        "index": 0,
+        "joke": "Why don't scientists trust atoms?"
+      },
+      {
+        "level": "3",
+        "index": 2,
+        "joke": "What do you call a fake noodle? An impasta!"
+      },
+      {
+        "level": "3",
+        "index": 5,
+        "joke": "What do you call a sleeping bull? A bulldozer!"
+      },
+      {
+        "level": "3",
+        "index": 8,
+        "joke": "What do you call a bear with no teeth? A gummy bear!"
+      },
+      {
+        "level": "3",
+        "index": 9,
+        "joke": "Why did the math book look so sad?"
+      },
+      {
+        "level": "3",
+        "index": 10,
+        "joke": "What do you call a dinosaur that crashes his car? Tyrannosaurus Wrecks!"
+      },
+      {
+        "level": "3",
+        "index": 12,
+        "joke": "Why did the golfer bring two pairs of pants? In case he got a hole in one!"
+      },
+      {
+        "level": "3",
+        "index": 13,
+        "joke": "What do you call a factory that sells passable products? A satisfactory!"
+      },
+      {
+        "level": "3",
+        "index": 15,
+        "joke": "Why did the coffee file a police report? It got mugged!"
+      },
+      {
+        "level": "3",
+        "index": 16,
+        "joke": "What do you call a pig that does karate? A pork chop!"
+      },
+      {
+        "level": "3",
+        "index": 18,
+        "joke": "What do you call a fish wearing a bowtie? Sofishticated!"
+      },
+      {
+        "level": "3",
+        "index": 20,
+        "joke": "Why did the bicycle fall over? Because it was two-tired!"
+      },
+      {
+        "level": "3",
+        "index": 21,
+        "joke": "What do you call a parade of rabbits hopping backwards? A receding hare-line!"
+      },
+      {
+        "level": "3",
+        "index": 25,
+        "joke": "What do you call a cow with no legs? Ground beef!"
+      },
+      {
+        "level": "3",
+        "index": 29,
+        "joke": "What do you call a belt made of watches? A waist of time!"
+      },
+      {
+        "level": "3",
+        "index": 30,
+        "joke": "What do you call a deer with no eyes? No idea!"
+      },
+      {
+        "level": "3",
+        "index": 38,
+        "joke": "What do you call a dog magician? A labracadabrador!"
+      },
+      {
+        "level": "3",
+        "index": 42,
+        "joke": "What do you call a fake stone? A shamrock!"
+      },
+      {
+        "level": "3",
+        "index": 43,
+        "joke": "Why did the banana go to the doctor? It wasn't peeling well!"
+      },
+      {
+        "level": "3",
+        "index": 44,
+        "joke": "What do you call a group of disorganized cats? A cat-astrophe!"
+      },
+      {
+        "level": "3",
+        "index": 45,
+        "joke": "Why did the pencil go to school? To get sharper!"
+      },
+      {
+        "level": "3",
+        "index": 46,
+        "joke": "What do you call a cow on a trampoline? A milkshake!"
+      },
+      {
+        "level": "3",
+        "index": 47,
+        "joke": "Why did the chicken cross the playground? To get to the other slide!"
+      },
+      {
+        "level": "3",
+        "index": 51,
+        "joke": "Why did the cookie go to school? To become a smart cookie!"
+      },
+      {
+        "level": "3",
+        "index": 55,
+        "joke": "Why did the apple go to the gym? To get some core strength!"
+      },
+      {
+        "level": "3",
+        "index": 57,
+        "joke": "Why did the orange stop rolling? It ran out of juice!"
+      },
+      {
+        "level": "3",
+        "index": 61,
+        "joke": "Why did the lemon stop rolling? It was sour!"
+      },
+      {
+        "level": "3",
+        "index": 67,
+        "joke": "Why did the peach go to the doctor? It had a pit in its stomach!"
+      },
+      {
+        "level": "3",
+        "index": 90,
+        "joke": "I told my wife she should embrace her mistakes. She gave me a big hug!"
+      },
+      {
+        "level": "3",
+        "index": 92,
+        "joke": "Why did the scarecrow win an award? He was outstanding in his field, but he was also pretty corny!"
+      },
+      {
+        "level": "3",
+        "index": 94,
+        "joke": "Why don't eggs tell jokes? They'd crack each other up and make a real mess!"
+      },
+      {
+        "level": "3",
+        "index": 98,
+        "joke": "What did the ocean say to the beach? Nothing, it just waved! But it was shore thinking about it!"
+      },
+      {
+        "level": "3",
+        "index": 101,
+        "joke": "What's orange and sounds like a parrot? A carrot! But it's not very talkative!"
+      },
+      {
+        "level": "3",
+        "index": 104,
+        "joke": "What did one wall say to the other wall? I'll meet you at the corner! They're always supporting each other!"
+      },
+      {
+        "level": "3",
+        "index": 108,
+        "joke": "What did the grape say when it got stepped on? Nothing, it just let out a little wine! It was crushed!"
+      },
+      {
+        "level": "4",
+        "index": 3,
+        "joke": "Why don't scientists trust atoms?"
+      },
+      {
+        "level": "4",
+        "index": 42,
+        "joke": "What do you call a group of disorganized cats? A cat-astrophe!"
+      },
+      {
+        "level": "4",
+        "index": 43,
+        "joke": "Why did the pencil go to school? To get sharper!"
+      },
+      {
+        "level": "4",
+        "index": 77,
+        "joke": "What do you call a fish that needs help with his vocals? Auto-tuna!"
+      },
+      {
+        "level": "4",
+        "index": 78,
+        "joke": "I used to be addicted to the Hokey Pokey, but I turned myself around!"
+      },
+      {
+        "level": "4",
+        "index": 80,
+        "joke": "I told my cat a joke about dogs. He didn't find it a-mew-sing!"
+      },
+      {
+        "level": "4",
+        "index": 81,
+        "joke": "What's the difference between a poorly dressed person on a bike and a well-dressed person on a tricycle? Attire! But the tricycle guy has more balance in life!"
+      },
+      {
+        "level": "4",
+        "index": 84,
+        "joke": "What did the left eye say to the right eye? Between you and me, something smells! It was a tear-able situation!"
+      },
+      {
+        "level": "4",
+        "index": 85,
+        "joke": "Why don't eggs ever pay the restaurant bill? They always crack under pressure and scramble away!"
+      },
+      {
+        "level": "4",
+        "index": 86,
+        "joke": "What do you call a bear with no teeth at a honey farm? A gummy bear having a sweet time, but he can't bear the sticky situation!"
+      },
+      {
+        "level": "4",
+        "index": 87,
+        "joke": "What's orange, sounds like a parrot, and is terrible at flying? A carrot with delusions! It's got a-peel but no wings!"
+      },
+      {
+        "level": "4",
+        "index": 90,
+        "joke": "What did one wall say to the other wall at the comedy club? I'll meet you at the corner for some structural humor! We're really holding up the show!"
+      },
+      {
+        "level": "4",
+        "index": 95,
+        "joke": "What did the grape say when it got stepped on at the wine festival? Nothing, it just let out a little wine and got crushed by the experience!"
+      },
+      {
+        "level": "4",
+        "index": 96,
+        "joke": "Why don't skeletons fight each other at Halloween parties? They don't have the guts and they're bone tired of conflict!"
+      },
+      {
+        "level": "5",
+        "index": 13,
+        "joke": "I used to play piano by ear, but now I use my hands"
+      },
+      {
+        "level": "5",
+        "index": 45,
+        "joke": "I used to be addicted to the Hokey Pokey, but then I turned myself around, put my left foot in, took my right foot out, and shook it all about until I was cured!"
+      },
+      {
+        "level": "5",
+        "index": 47,
+        "joke": "I told my cat a joke about dogs while he was napping. He didn't find it a-mew-sing, gave me a paws for concern, and said it was the cat's pajamas of bad humor!"
+      },
+      {
+        "level": "5",
+        "index": 48,
+        "joke": "What's the difference between a poorly dressed person on a bike and a well-dressed person on a tricycle riding through a fashion district? Attire! But the tricycle guy has more balance in life, three times the style, and is wheely well-dressed!"
+      },
+      {
+        "level": "5",
+        "index": 51,
+        "joke": "What did the left eye say to the right eye during an emotional movie? Between you and me, something smells! It was a tear-able situation that really brought tears to their pupils and made them blink twice!"
+      },
+      {
+        "level": "5",
+        "index": 52,
+        "joke": "Why don't eggs ever pay the restaurant bill at breakfast? They always crack under pressure, scramble away from responsibility, get beaten by the situation, and are always over-easy to avoid paying!"
+      },
+      {
+        "level": "5",
+        "index": 53,
+        "joke": "What do you call a bear with no teeth at a honey farm during harvest season? A gummy bear having a sweet time, but he can't bear the sticky situation, finds it un-bear-ably sweet, and is just gumming up the works!"
+      },
+      {
+        "level": "5",
+        "index": 54,
+        "joke": "What's orange, sounds like a parrot, is terrible at flying, and thinks it's a bird? A carrot with delusions and aviation dreams! It's got a-peel but no wings, and its flying carrots are just pie in the sky!"
+      },
+      {
+        "level": "5",
+        "index": 57,
+        "joke": "What did one wall say to the other wall at the comedy club during open mic night? I'll meet you at the corner for some structural humor! We're really holding up the show, supporting each other's jokes, and our comedy is wall-to-wall entertainment!"
+      }
+    ],
+    "too_long": [
+      {
+        "level": "5",
+        "index": 6,
+        "length": 244,
+        "joke": "What's the difference between a poorly dressed person on a bike and a well-dressed person on a tricycle riding through a fashion district? Attire! But the tricycle guy has more balance in life, three times the style, and is wheely well-dressed!"
+      },
+      {
+        "level": "5",
+        "index": 10,
+        "length": 205,
+        "joke": "What did the left eye say to the right eye during an emotional movie? Between you and me, something smells! It was a tear-able situation that really brought tears to their pupils and made them blink twice!"
+      },
+      {
+        "level": "5",
+        "index": 11,
+        "length": 197,
+        "joke": "Why don't eggs ever pay the restaurant bill at breakfast? They always crack under pressure, scramble away from responsibility, get beaten by the situation, and are always over-easy to avoid paying!"
+      },
+      {
+        "level": "5",
+        "index": 12,
+        "length": 213,
+        "joke": "What do you call a bear with no teeth at a honey farm during harvest season? A gummy bear having a sweet time, but he can't bear the sticky situation, finds it un-bear-ably sweet, and is just gumming up the works!"
+      },
+      {
+        "level": "5",
+        "index": 14,
+        "length": 206,
+        "joke": "What's orange, sounds like a parrot, is terrible at flying, and thinks it's a bird? A carrot with delusions and aviation dreams! It's got a-peel but no wings, and its flying carrots are just pie in the sky!"
+      },
+      {
+        "level": "5",
+        "index": 17,
+        "length": 247,
+        "joke": "What did one wall say to the other wall at the comedy club during open mic night? I'll meet you at the corner for some structural humor! We're really holding up the show, supporting each other's jokes, and our comedy is wall-to-wall entertainment!"
+      },
+      {
+        "level": "5",
+        "index": 20,
+        "length": 211,
+        "joke": "What's the best thing about Switzerland besides the chocolate, watches, and Alps? I don't know, but the flag is a big plus, their neutrality is positively Swiss, and their cheese holes are grate for ventilation!"
+      },
+      {
+        "level": "5",
+        "index": 23,
+        "length": 202,
+        "joke": "What did the grape say when it got stepped on at the wine festival during harvest? Nothing, it just let out a little wine, got crushed by the experience, and decided to age gracefully into a fine whine!"
+      },
+      {
+        "level": "5",
+        "index": 24,
+        "length": 209,
+        "joke": "Why don't skeletons fight each other at Halloween parties during costume contests? They don't have the guts, are bone tired of conflict, lack the stomach for fighting, and their arguments are pretty skull-low!"
+      },
+      {
+        "level": "5",
+        "index": 25,
+        "length": 225,
+        "joke": "What's the best way to watch a fly fishing tournament on TV during fishing season? Live stream! It's reel entertainment that hooks you in, catches your attention, and really makes you want to scale up your viewing experience!"
+      },
+      {
+        "level": "5",
+        "index": 28,
+        "length": 208,
+        "joke": "What's a skeleton's least favorite room in a haunted house during Halloween? The living room! They prefer their spaces a little more dead-icated, find it bone-chilling, and think it's got too much life in it!"
+      },
+      {
+        "level": "5",
+        "index": 34,
+        "length": 210,
+        "joke": "Why don't oysters share at seafood restaurants during happy hour? Because they're shellfish! They clam up when asked to give, are very shell-centered, and think sharing is for the birds... or should I say fish!"
+      },
+      {
+        "level": "5",
+        "index": 35,
+        "length": 226,
+        "joke": "What did the janitor say when he jumped out of the supply closet during spring cleaning? Supplies! He really swept them off their feet with his cleaning humor, mopped the floor with that joke, and dusted off his best material!"
+      },
+      {
+        "level": "5",
+        "index": 46,
+        "length": 209,
+        "joke": "What do you call a cow that plays a musical instrument in a barn band? A moo-sician! But only if it's in a good moo-d, doesn't have beef with the other animals, and can milk the performance for all it's worth!"
+      },
+      {
+        "level": "5",
+        "index": 48,
+        "length": 244,
+        "joke": "What's the difference between a poorly dressed person on a bike and a well-dressed person on a tricycle riding through a fashion district? Attire! But the tricycle guy has more balance in life, three times the style, and is wheely well-dressed!"
+      },
+      {
+        "level": "5",
+        "index": 49,
+        "length": 230,
+        "joke": "Why did the math book break up with the history book at the library? Because it had too many problems, couldn't count on the past, was divided by their differences, and their relationship just didn't add up to a sum-thing special!"
+      },
+      {
+        "level": "5",
+        "index": 50,
+        "length": 209,
+        "joke": "What do you call a sleeping bull in a flower garden during springtime? A bulldozer in a bed of roses having beauty sleep! It's beauty and the beast of napping, but he's really pushing up daisies in his dreams!"
+      },
+      {
+        "level": "5",
+        "index": 51,
+        "length": 205,
+        "joke": "What did the left eye say to the right eye during an emotional movie? Between you and me, something smells! It was a tear-able situation that really brought tears to their pupils and made them blink twice!"
+      },
+      {
+        "level": "5",
+        "index": 52,
+        "length": 197,
+        "joke": "Why don't eggs ever pay the restaurant bill at breakfast? They always crack under pressure, scramble away from responsibility, get beaten by the situation, and are always over-easy to avoid paying!"
+      },
+      {
+        "level": "5",
+        "index": 53,
+        "length": 213,
+        "joke": "What do you call a bear with no teeth at a honey farm during harvest season? A gummy bear having a sweet time, but he can't bear the sticky situation, finds it un-bear-ably sweet, and is just gumming up the works!"
+      },
+      {
+        "level": "5",
+        "index": 54,
+        "length": 206,
+        "joke": "What's orange, sounds like a parrot, is terrible at flying, and thinks it's a bird? A carrot with delusions and aviation dreams! It's got a-peel but no wings, and its flying carrots are just pie in the sky!"
+      },
+      {
+        "level": "5",
+        "index": 55,
+        "length": 219,
+        "joke": "Why did the coffee file a police report at the donut shop during rush hour? It got mugged by a glazed criminal! The evidence was grounds for arrest, the perp was a real drip, and the whole case was brewing with trouble!"
+      },
+      {
+        "level": "5",
+        "index": 56,
+        "length": 219,
+        "joke": "What do you call a pig that does karate in a deli while ordering lunch? A pork chop with a side of ham-fu! He's bacon up the wrong tree, bringing home the bacon with his martial arts, and his moves are simply ham-azing!"
+      },
+      {
+        "level": "5",
+        "index": 57,
+        "length": 247,
+        "joke": "What did one wall say to the other wall at the comedy club during open mic night? I'll meet you at the corner for some structural humor! We're really holding up the show, supporting each other's jokes, and our comedy is wall-to-wall entertainment!"
+      },
+      {
+        "level": "5",
+        "index": 58,
+        "length": 235,
+        "joke": "Why don't scientists trust stairs in a laboratory during experiments? Because they're always up to something, might cause a step-tical reaction, are taking research to the next level, and their results are always a step above the rest!"
+      }
+    ],
+    "with_explanations": [
+      {
+        "level": "1",
+        "index": 156,
+        "joke": "I haven't slept for ten days, because that would be too long."
+      },
+      {
+        "level": "2",
+        "index": 96,
+        "joke": "Why don't scientists trust atoms? Because they make up everything!"
+      },
+      {
+        "level": "2",
+        "index": 99,
+        "joke": "Why did the scarecrow win an award? Because he was outstanding in his field!"
+      },
+      {
+        "level": "2",
+        "index": 103,
+        "joke": "Why did the math book look so sad? Because it was full of problems!"
+      },
+      {
+        "level": "2",
+        "index": 113,
+        "joke": "Why did the bicycle fall over? Because it was two-tired!"
+      },
+      {
+        "level": "3",
+        "index": 20,
+        "joke": "Why did the bicycle fall over? Because it was two-tired!"
+      },
+      {
+        "level": "3",
+        "index": 26,
+        "joke": "Why did the cookie go to the doctor? Because it felt crumbly!"
+      },
+      {
+        "level": "3",
+        "index": 28,
+        "joke": "Why did the tomato turn red? Because it saw the salad dressing!"
+      },
+      {
+        "level": "3",
+        "index": 31,
+        "joke": "Why don't scientists trust stairs? Because they're always up to something! Step by step conspiracy!"
+      },
+      {
+        "level": "3",
+        "index": 35,
+        "joke": "Why don't oysters share? Because they're shellfish! They clam up when asked to give!"
+      },
+      {
+        "level": "3",
+        "index": 37,
+        "joke": "Why did the picture go to jail? Because it was framed!"
+      },
+      {
+        "level": "3",
+        "index": 41,
+        "joke": "Why did the computer go to the doctor? Because it had a virus!"
+      },
+      {
+        "level": "3",
+        "index": 48,
+        "joke": "What do you call a fish that's good at basketball? A ball hog!"
+      },
+      {
+        "level": "3",
+        "index": 50,
+        "joke": "What do you call a cow that's just given birth? Decalfinated!"
+      },
+      {
+        "level": "3",
+        "index": 52,
+        "joke": "What do you call a fish that's good at tennis? A racket fish!"
+      },
+      {
+        "level": "3",
+        "index": 53,
+        "joke": "Why did the banana split? Because it saw the ice cream!"
+      },
+      {
+        "level": "3",
+        "index": 54,
+        "joke": "What do you call a cow that's good at dancing? A moo-ver and shaker!"
+      },
+      {
+        "level": "3",
+        "index": 56,
+        "joke": "What do you call a fish that's good at soccer? A goal-fish!"
+      },
+      {
+        "level": "3",
+        "index": 58,
+        "joke": "What do you call a cow that's good at comedy? A laugh-stock!"
+      },
+      {
+        "level": "3",
+        "index": 59,
+        "joke": "Why did the grape stop in the middle of the road? Because it ran out of juice!"
+      },
+      {
+        "level": "3",
+        "index": 60,
+        "joke": "What do you call a fish that's good at golf? A hole-in-one fish!"
+      },
+      {
+        "level": "3",
+        "index": 62,
+        "joke": "What do you call a cow that's good at writing? A cow-thor!"
+      },
+      {
+        "level": "3",
+        "index": 63,
+        "joke": "Why did the watermelon have a big wedding? Because it cantaloupe!"
+      },
+      {
+        "level": "3",
+        "index": 64,
+        "joke": "What do you call a fish that's good at cooking? A chef-fish!"
+      },
+      {
+        "level": "3",
+        "index": 65,
+        "joke": "Why did the strawberry cry? Because its parents were in a jam!"
+      },
+      {
+        "level": "3",
+        "index": 66,
+        "joke": "What do you call a cow that's good at teaching? A cow-structor!"
+      },
+      {
+        "level": "3",
+        "index": 68,
+        "joke": "What do you call a fish that's good at cleaning? A mop-fish!"
+      },
+      {
+        "level": "3",
+        "index": 69,
+        "joke": "Why did the pineapple wear sunglasses? Because it was one cool fruit!"
+      },
+      {
+        "level": "3",
+        "index": 70,
+        "joke": "What do you call a cow that's good at fixing things? A cow-mechanic!"
+      },
+      {
+        "level": "3",
+        "index": 71,
+        "joke": "Why did the cherry go to the party? Because it was the cherry on top!"
+      },
+      {
+        "level": "3",
+        "index": 72,
+        "joke": "What do you call a fish that's good at singing? A tuna!"
+      },
+      {
+        "level": "3",
+        "index": 74,
+        "joke": "What do you call a cow that's good at magic? A moo-gician!"
+      },
+      {
+        "level": "3",
+        "index": 76,
+        "joke": "What do you call a fish that's good at photography? A snap-per!"
+      },
+      {
+        "level": "3",
+        "index": 78,
+        "joke": "What do you call a cow that's good at detective work? A cow-p!"
+      },
+      {
+        "level": "3",
+        "index": 80,
+        "joke": "What do you call a fish that's good at construction? A hammer-head!"
+      },
+      {
+        "level": "3",
+        "index": 81,
+        "joke": "Why did the kiwi move to New Zealand? Because it felt at home!"
+      },
+      {
+        "level": "3",
+        "index": 82,
+        "joke": "What do you call a cow that's good at meteorology? A weather-cow!"
+      },
+      {
+        "level": "3",
+        "index": 84,
+        "joke": "What do you call a fish that's good at gardening? A plant-fish!"
+      },
+      {
+        "level": "3",
+        "index": 85,
+        "joke": "Why did the dragon fruit breathe fire? Because it was having a bad day!"
+      },
+      {
+        "level": "3",
+        "index": 86,
+        "joke": "What do you call a cow that's good at astronomy? A space-cow!"
+      },
+      {
+        "level": "3",
+        "index": 87,
+        "joke": "Why did the star fruit shine so bright? Because it was a natural born star!"
+      },
+      {
+        "level": "3",
+        "index": 88,
+        "joke": "What do you call a fish that's good at archaeology? A fossil fish!"
+      },
+      {
+        "level": "3",
+        "index": 89,
+        "joke": "Why don't scientists trust atoms? Because they make up everything and they're always bonding!"
+      },
+      {
+        "level": "3",
+        "index": 96,
+        "joke": "Why did the math book look so sad? Because it was full of problems and nobody wanted to solve them!"
+      },
+      {
+        "level": "3",
+        "index": 99,
+        "joke": "Why did the golfer bring two pairs of pants? In case he got a hole in one! That's par for the course!"
+      },
+      {
+        "level": "3",
+        "index": 106,
+        "joke": "Why did the bicycle fall over? Because it was two-tired! It needed a wheel good rest!"
+      },
+      {
+        "level": "4",
+        "index": 29,
+        "joke": "Why did the tomato turn red at the salad bar? Because it saw the salad dressing and got saucy!"
+      },
+      {
+        "level": "4",
+        "index": 34,
+        "joke": "Why don't oysters share at seafood restaurants? Because they're shellfish! They clam up when asked to give and are very shell-centered!"
+      },
+      {
+        "level": "4",
+        "index": 36,
+        "joke": "Why did the picture go to jail for a crime? Because it was framed!"
+      },
+      {
+        "level": "4",
+        "index": 39,
+        "joke": "Why did the computer go to the doctor with technical problems? Because it had a virus!"
+      },
+      {
+        "level": "4",
+        "index": 46,
+        "joke": "What do you call a fish that's good at basketball in the NBA? A ball hog with fins!"
+      },
+      {
+        "level": "4",
+        "index": 48,
+        "joke": "What do you call a cow that's just given birth in the hospital? Decalfinated and exhausted!"
+      },
+      {
+        "level": "4",
+        "index": 50,
+        "joke": "What do you call a fish that's good at tennis at Wimbledon? A racket fish with perfect form!"
+      },
+      {
+        "level": "4",
+        "index": 52,
+        "joke": "What do you call a cow that's good at dancing on Broadway? A moo-ver and shaker with serious stage presence!"
+      },
+      {
+        "level": "4",
+        "index": 54,
+        "joke": "What do you call a fish that's good at soccer in the World Cup? A goal-fish with championship dreams!"
+      },
+      {
+        "level": "4",
+        "index": 56,
+        "joke": "What do you call a cow that's good at comedy at the comedy club? A laugh-stock with perfect timing!"
+      },
+      {
+        "level": "4",
+        "index": 58,
+        "joke": "What do you call a fish that's good at golf at the Masters? A hole-in-one fish with pro-level skills!"
+      },
+      {
+        "level": "4",
+        "index": 60,
+        "joke": "What do you call a cow that's good at writing novels? A cow-thor with a bestselling series!"
+      },
+      {
+        "level": "4",
+        "index": 62,
+        "joke": "What do you call a fish that's good at cooking on TV? A chef-fish with his own cooking show!"
+      },
+      {
+        "level": "4",
+        "index": 64,
+        "joke": "What do you call a cow that's good at teaching math? A cow-structor with tenure!"
+      },
+      {
+        "level": "4",
+        "index": 66,
+        "joke": "What do you call a fish that's good at cleaning houses professionally? A mop-fish with five-star reviews!"
+      },
+      {
+        "level": "4",
+        "index": 68,
+        "joke": "What do you call a cow that's good at fixing cars? A cow-mechanic with her own garage!"
+      },
+      {
+        "level": "4",
+        "index": 70,
+        "joke": "What do you call a fish that's good at singing opera? A tuna with perfect pitch!"
+      },
+      {
+        "level": "4",
+        "index": 72,
+        "joke": "What do you call a cow that's good at magic shows? A moo-gician with sold-out performances!"
+      },
+      {
+        "level": "4",
+        "index": 74,
+        "joke": "What do you call a fish that's good at photography? A snap-per with an eye for detail!"
+      },
+      {
+        "level": "4",
+        "index": 76,
+        "joke": "What do you call a cow that's good at detective work? A cow-p with a perfect solve rate!"
+      },
+      {
+        "level": "4",
+        "index": 79,
+        "joke": "What do you call a cow that plays a musical instrument? A moo-sician! But only if it's in a good moo-d!"
+      },
+      {
+        "level": "4",
+        "index": 82,
+        "joke": "Why did the math book break up with the history book? Because it had too many problems and couldn't count on the past!"
+      },
+      {
+        "level": "4",
+        "index": 91,
+        "joke": "Why don't scientists trust stairs in a laboratory? Because they're always up to something and might cause a step-tical reaction!"
+      },
+      {
+        "level": "4",
+        "index": 93,
+        "joke": "Why did the bicycle fall over at the race? Because it was two-tired from all the wheely hard training!"
+      },
+      {
+        "level": "5",
+        "index": 29,
+        "joke": "Why did the tomato turn red at the salad bar during lunch rush? Because it saw the salad dressing getting fresh and got saucy!"
+      },
+      {
+        "level": "5",
+        "index": 34,
+        "joke": "Why don't oysters share at seafood restaurants during happy hour? Because they're shellfish! They clam up when asked to give, are very shell-centered, and think sharing is for the birds... or should I say fish!"
+      },
+      {
+        "level": "5",
+        "index": 36,
+        "joke": "Why did the picture go to jail for a crime during an art heist? Because it was framed!"
+      },
+      {
+        "level": "5",
+        "index": 39,
+        "joke": "Why did the computer go to the doctor with technical problems during a system crash? Because it had a virus!"
+      },
+      {
+        "level": "5",
+        "index": 46,
+        "joke": "What do you call a cow that plays a musical instrument in a barn band? A moo-sician! But only if it's in a good moo-d, doesn't have beef with the other animals, and can milk the performance for all it's worth!"
+      },
+      {
+        "level": "5",
+        "index": 49,
+        "joke": "Why did the math book break up with the history book at the library? Because it had too many problems, couldn't count on the past, was divided by their differences, and their relationship just didn't add up to a sum-thing special!"
+      },
+      {
+        "level": "5",
+        "index": 58,
+        "joke": "Why don't scientists trust stairs in a laboratory during experiments? Because they're always up to something, might cause a step-tical reaction, are taking research to the next level, and their results are always a step above the rest!"
+      }
+    ],
+    "average_length_per_level": {
+      "1": 59.142011834319526,
+      "2": 51.224137931034484,
+      "3": 70.6788990825688,
+      "4": 93.5360824742268,
+      "5": 152.40677966101694
+    }
+  },
+  "modifications_made": 196,
+  "jokes_added": 95,
+  "timestamp": "2025-09-28T17:55:00Z"
+}
