@@ -1,5 +1,5 @@
 {
-  "audit_timestamp": "2025-09-28T18:14:14.528383",
+  "audit_timestamp": "2025-09-28T19:29:10.557916",
   "database_file": "punnyland/data/jokes.json",
   "schema_file": "schemas/jokes.schema.json",
   "schema_validation": {
@@ -8,7 +8,7 @@
     "warnings": []
   },
   "duplicate_analysis": {
-    "total_comparisons": 90100,
+    "total_comparisons": 87153,
     "duplicates_found": 0,
     "duplicates": []
   },
@@ -36,7 +36,7 @@
       },
       {
         "level": "3",
-        "index": 104,
+        "index": 95,
         "joke": "Why don't pencils have erasers in Europe? Because they don't make mistakes!",
         "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
       },
@@ -48,37 +48,37 @@
       },
       {
         "level": "4",
-        "index": 86,
+        "index": 85,
         "joke": "Why did the cat become a stand-up comedian at the fancy theater during opening night? Because it was purr-fectly positioned, feline fine about everything, and whisker-ing away!",
         "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
       },
       {
         "level": "4",
-        "index": 90,
+        "index": 89,
         "joke": "Why did the elephant become a memory therapist at the wellness center during peak season? Because it was trunk-fully equipped, never forgets anything important, and had!",
         "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
       },
       {
         "level": "4",
-        "index": 93,
+        "index": 92,
         "joke": "Why did the monkey become a computer scientist at Silicon Valley during the tech boom? Because it was bananas about innovation, had ape-solutely brilliant coding skills, and!",
         "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
       },
       {
         "level": "4",
-        "index": 97,
+        "index": 96,
         "joke": "Why did the lion become a motivational speaker at corporate retreats during leadership conferences? Because it had mane-ly charismatic presence, roar-ing confidence, and!",
         "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
       },
       {
         "level": "4",
-        "index": 100,
+        "index": 99,
         "joke": "Why did the whale become an opera singer at the Metropolitan Opera during the season finale? Because it had whale-ing good vocal range, deep-sea resonance, and could make waves!",
         "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
       },
       {
         "level": "4",
-        "index": 105,
+        "index": 104,
         "joke": "Why did the parrot become a foreign language instructor at the United Nations during international conferences? Because it had poly-glot abilities, colorful teaching methods,!",
         "pattern": "\\b(because|get it|you see|that\\'?s why|meaning|translation|in other words)\\b"
       },
@@ -111,54 +111,54 @@
     "suspicious_characters": []
   },
   "distribution_analysis": {
-    "total_jokes": 425,
+    "total_jokes": 418,
     "by_level": {
       "1": {
         "count": 103,
-        "percentage": 24.235294117647058,
+        "percentage": 24.641148325358852,
         "avg_length": 59.883495145631066,
         "min_length": 28,
         "max_length": 131
       },
       "2": {
         "count": 68,
-        "percentage": 16.0,
+        "percentage": 16.267942583732058,
         "avg_length": 54.455882352941174,
         "min_length": 24,
         "max_length": 75
       },
       "3": {
-        "count": 112,
-        "percentage": 26.35294117647059,
-        "avg_length": 63.74107142857143,
+        "count": 105,
+        "percentage": 25.11961722488038,
+        "avg_length": 63.8,
         "min_length": 49,
         "max_length": 105
       },
       "4": {
         "count": 116,
-        "percentage": 27.294117647058826,
+        "percentage": 27.751196172248804,
         "avg_length": 94.54310344827586,
         "min_length": 42,
         "max_length": 177
       },
       "5": {
         "count": 26,
-        "percentage": 6.11764705882353,
+        "percentage": 6.220095693779904,
         "avg_length": 145.46153846153845,
         "min_length": 42,
         "max_length": 177
       }
     },
-    "balance_score": 85.69
+    "balance_score": 85.99
   },
   "summary": {
     "overall_status": "ISSUES_FOUND",
     "quality_score": 70,
-    "total_jokes": 425,
+    "total_jokes": 418,
     "schema_valid": true,
     "duplicates_found": 0,
     "quality_issues": 15,
-    "distribution_balance": 85.69,
+    "distribution_balance": 85.99,
     "recommendations": [
       "Remove explanations from 15 jokes"
     ]
